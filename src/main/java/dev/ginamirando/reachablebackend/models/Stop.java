@@ -1,17 +1,20 @@
 package dev.ginamirando.reachablebackend.models;
 
 public class Stop {
-//do I make these final as suggested? will I need inheritance?
-    private String stopName;
-    private String direction;
-    private int stopId;
-    //private int parentId;
+    private final String stopName;
+    private final String direction;
+    private final int stopId;
+    private final int parentId;
+    private final boolean adaFriendly;
+    private final String address;
 
-    public Stop(String stopName, String direction, int stopId, int parentId) {
+    public Stop(String stopName, String direction, int stopId, int parentId, boolean adaFriendly, String address) {
         this.stopName = stopName;
         this.direction = direction;
         this.stopId = stopId;
-//        this.parentId = parentId;
+        this.parentId = parentId;
+        this.adaFriendly = adaFriendly;
+        this.address = address;
     }
 
     public String getStopName() {
@@ -26,9 +29,19 @@ public class Stop {
         return stopId;
     }
 
-   // public int getParentId() {
-        //return parentId;
+    public int getParentId() {
+        return parentId;
     }
+
+    public boolean isAdaFriendly() {
+        return adaFriendly;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+}
+
 
 
 // Objects to include in stop class - Stop name, Stop ID, Direction? (might not be relevant), parent id (share with lines or have here also? - would make public not private then),
