@@ -1,4 +1,4 @@
-package dev.ginamirando.reachablebackend;
+package dev.ginamirando.reachablebackend.models;
 
 public class Train {
 
