@@ -13,14 +13,11 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:3000")
 public class StopController {
 
-    private final List<Stop> stops = new ArrayList<>();
+    private final StopService stopService = new StopService();
+    private final List<Stop> stops = stopService.getStops();
+
 
     public StopController() {
-        Stop stop1 = new Stop("BobsYourUncle", "W", 1, 2, false, "overthere");
-        Stop stop2 = new Stop("GinaMirando", "N", 2,3,true,"somewhere");
-
-        stops.add(stop1);
-        stops.add(stop2);
 
     }
 
