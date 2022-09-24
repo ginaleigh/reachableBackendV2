@@ -25,9 +25,7 @@ public class StopController {
     }
 
     @GetMapping(value = "/stop")
-    public List<Stop> getStops() {
-        return stops;
-    }
+    public List<Stop> getStops() { return stops; }
 
     @GetMapping(value = "/stop/{stopId}")
     public Stop getStops(@PathVariable Integer stopId) {
@@ -38,13 +36,18 @@ public class StopController {
             }
         }
         return null;
+
     }
+    @GetMapping(value = "/stop/{parentId}")
+    public Stop getParentId(@PathVariable Integer parentId) {
+        for (Stop s : stops) {
+            if (s.getParentId() == (parentId)) {
+                return s;
+            }
+        }
+        return null;
 
-
-
-
-
-
+    }
 
 
 
