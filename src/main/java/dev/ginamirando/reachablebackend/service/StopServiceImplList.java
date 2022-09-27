@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
-@Service
-@Primary
+
+
 public class StopServiceImplList implements StopService {
 
     private final List<Stop> stops = new ArrayList<>();
@@ -23,7 +23,8 @@ public class StopServiceImplList implements StopService {
 
     }
 
-    public List<Stop>getStops() {
+    @Override
+    public List<Stop> getStops() {
         return stops;
     }
 
