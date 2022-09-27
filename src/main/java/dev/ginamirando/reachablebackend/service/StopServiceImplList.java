@@ -1,16 +1,20 @@
-package dev.ginamirando.reachablebackend.controllers;
+package dev.ginamirando.reachablebackend.service;
 
 
 import dev.ginamirando.reachablebackend.models.Stop;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class StopService {
+@Service
+@Primary
+public class StopServiceImplList implements StopService {
 
     private final List<Stop> stops = new ArrayList<>();
 
-    public StopService() {
+    public StopServiceImplList() {
         Stop stop1 = new Stop("Testing1", "W", 1, 2, false, "overthere");
         Stop stop2 = new Stop("Testing2", "N", 2, 3, true, "somewhere");
 
@@ -22,5 +26,6 @@ public class StopService {
     public List<Stop>getStops() {
         return stops;
     }
+
 }
 
