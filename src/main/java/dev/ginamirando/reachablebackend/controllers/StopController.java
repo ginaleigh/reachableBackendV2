@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 @RestController
@@ -25,7 +28,14 @@ public class StopController {
     }
 
     @GetMapping(value = "/stop")
-    public List<Stop> getStops() { return stops; }
+    public List<Stop> getStops() {
+      if (stops.isEmpty()) {
+          stops.addAll(service.getStops());
+      }
+
+      return new ArrayList<>(stops);
+    }
+
 
     @GetMapping(value = "/stop/{stopId}")
     public Stop getStops(@PathVariable Integer stopId) {
@@ -48,11 +58,6 @@ public class StopController {
         return null;
 
     }
-
-
-
-
-
 
 
 }
