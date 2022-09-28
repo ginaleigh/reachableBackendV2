@@ -33,4 +33,4 @@ public enum Line {
 
 }
 
-// Line color as enum
+// @JsonValue to serialize enum via its name

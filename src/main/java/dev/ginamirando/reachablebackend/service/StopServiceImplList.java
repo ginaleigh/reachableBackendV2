@@ -1,9 +1,8 @@
 package dev.ginamirando.reachablebackend.service;
 
 
+import dev.ginamirando.reachablebackend.models.Arrival;
 import dev.ginamirando.reachablebackend.models.Stop;
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +25,11 @@ public class StopServiceImplList implements StopService {
     @Override
     public List<Stop> getStops() {
         return stops;
+    }
+
+    @Override
+    public List<Arrival> getArrival() {
+        return null;
     }
 
 }
