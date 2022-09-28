@@ -23,33 +23,33 @@ public class Ctatt {
     }
 
     @JsonProperty("tmst")
-    public String timeStamp() {
+    private String timeStamp() {
         return timeStamp;
     }
 
     @JsonProperty("errCd")
-    public String errorCode() {
+    private String errorCode() {
         return errorCode;
     }
 
     @JsonProperty("errNm")
-    public String errorName() {
+    private String errorName() {
         return errorName;
     }
 
-    public void setTimeStamp(String timeStamp) {
+    private void setTimeStamp(String timeStamp) {
         this.timeStamp = timeStamp;
     }
 
-    public void setErrorCode(String errorCode) {
+    private void setErrorCode(String errorCode) {
         this.errorCode = errorCode;
     }
 
-    public void setErrorName(String errorName) {
+    private void setErrorName(String errorName) {
         this.errorName = errorName;
     }
 
-    public void setArrivals(List<Arrival> arrivals) {
+    private void setArrivals(List<Arrival> arrivals) {
         this.arrivals = arrivals;
     }
 }

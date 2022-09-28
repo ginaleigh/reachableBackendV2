@@ -10,5 +10,3 @@ public interface StopService {
     List<Arrival> getArrival();
 }
 
-//    List<Eta> getArrivals();
-//    List<Eta> getEta();

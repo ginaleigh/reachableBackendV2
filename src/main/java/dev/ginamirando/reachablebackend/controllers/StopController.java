@@ -26,7 +26,7 @@ public class StopController {
     }
 
     @GetMapping(value = "/stop")
-    public List<Stop> getStops() {
+    private final List<Stop> getStops() {
       if (stops.isEmpty()) {
           stops.addAll(service.getStops());
       }
@@ -36,7 +36,7 @@ public class StopController {
 
 
     @GetMapping(value = "/stop/{stopId}")
-    public Stop getStops(@PathVariable Integer stopId) {
+    private final Stop getStops(@PathVariable Integer stopId) {
         // What if the Integer is not an Integer
         for (Stop s : stops) {
             if (s.stopId() == (stopId)) {
@@ -47,7 +47,7 @@ public class StopController {
 
     }
     @GetMapping(value = "/stop/{parentId}")
-    public Stop getParentId(@PathVariable Integer parentId) {
+    private final Stop getParentId(@PathVariable Integer parentId) {
         for (Stop s : stops) {
             if (s.parentId() == (parentId)) {
                 return s;
@@ -57,7 +57,7 @@ public class StopController {
 
     }
     @GetMapping(value = "/arrivals")
-    public List<Arrival> getArrivals() {
+    private final List<Arrival> getArrivals() {
         return service.getArrival();
 
     }

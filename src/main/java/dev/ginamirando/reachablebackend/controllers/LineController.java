@@ -12,7 +12,7 @@ import java.util.List;
 public class LineController {
 
     @GetMapping(value = "lines")
-    public List<String> getLines() { return Line.displayableColors();}
+    private final List<String> getLines() { return Line.displayableColors();}
 
 
 }
