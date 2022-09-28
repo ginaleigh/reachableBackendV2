@@ -1,5 +1,6 @@
 package dev.ginamirando.reachablebackend.controllers;
 
+import dev.ginamirando.reachablebackend.models.Arrival;
 import dev.ginamirando.reachablebackend.models.Stop;
 import dev.ginamirando.reachablebackend.service.StopService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,10 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 @RestController
@@ -28,7 +26,7 @@ public class StopController {
     }
 
     @GetMapping(value = "/stop")
-    public List<Stop> getStops() {
+    private final List<Stop> getStops() {
       if (stops.isEmpty()) {
           stops.addAll(service.getStops());
       }
@@ -38,7 +36,7 @@ public class StopController {
 
 
     @GetMapping(value = "/stop/{stopId}")
-    public Stop getStops(@PathVariable Integer stopId) {
+    private final Stop getStops(@PathVariable Integer stopId) {
         // What if the Integer is not an Integer
         for (Stop s : stops) {
             if (s.stopId() == (stopId)) {
@@ -49,7 +47,7 @@ public class StopController {
 
     }
     @GetMapping(value = "/stop/{parentId}")
-    public Stop getParentId(@PathVariable Integer parentId) {
+    private final Stop getParentId(@PathVariable Integer parentId) {
         for (Stop s : stops) {
             if (s.parentId() == (parentId)) {
                 return s;
@@ -58,7 +56,11 @@ public class StopController {
         return null;
 
     }
+    @GetMapping(value = "/arrivals")
+    private final List<Arrival> getArrivals() {
+        return service.getArrival();
 
+    }
 
 }
 
