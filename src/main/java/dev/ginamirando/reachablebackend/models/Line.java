@@ -4,19 +4,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 public enum Line {
-    BLUE("Blue"),
-    BROWN("Brown"),
-    RED("Red"),
-    GREEN("Green"),
-    ORANGE("Orange"),
-    PURPLE("Purple"),
-    PINK("Pink"),
-    YELLOW("Yellow");
+    BLUE("Blue", "blue,"),
+    BROWN("Brown", "brn,"),
+    RED("Red", "red,"),
+    GREEN("Green", "g,"),
+    ORANGE("Orange", "org,"),
+    PURPLE("Purple", "p,"),
+    PINK("Pink", "pink,"),
+    YELLOW("Yellow", "y");
 
     private final String displayValue;
+    private final String ctaValue;
 
-    Line(String displayValue) {
+    Line(String displayValue, String ctaValue) {
         this.displayValue = displayValue;
+        this.ctaValue = ctaValue;
     }
 
     public String getDisplayValue() {
@@ -30,6 +32,16 @@ public enum Line {
         }
         return lines;
     }
+
+    public static List<String> uriValues() {
+        List<String> lines2 = new ArrayList<>();
+        for (Line l : Line.values()) {
+            lines2.add(l.ctaValue);
+        }
+        return lines2;
+    }
+
+
 
 }
 
