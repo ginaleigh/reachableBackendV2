@@ -14,5 +14,8 @@ public class LineController {
     @GetMapping(value = "lines")
     private final List<String> getLines() { return Line.displayableColors();}
 
+    @GetMapping(value = "routes")
+    private final List<String> getRoutes() { return Line.uriValues();}
+
 
 }

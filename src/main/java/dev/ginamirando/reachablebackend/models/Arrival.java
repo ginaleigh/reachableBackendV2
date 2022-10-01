@@ -14,5 +14,4 @@ public class Arrival {
     @JsonProperty("arrT")
     private String arrivalTime;
 
-
 }

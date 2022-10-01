@@ -17,9 +17,17 @@ public class Ctatt {
     @JsonProperty("eta")
     private List<Arrival> arrivals;
 
+    @JsonProperty("route")
+    private List<Route> routes;
+
+
 
     public List<Arrival> arrivals() {
         return arrivals;
+    }
+
+    public List<Route> routes() {
+        return routes;
     }
 
     @JsonProperty("tmst")
@@ -52,6 +60,11 @@ public class Ctatt {
     private void setArrivals(List<Arrival> arrivals) {
         this.arrivals = arrivals;
     }
+
+    private void setRoutes(List<Route> routes) {
+        this.routes = routes;
+    }
+
 }
 
 
