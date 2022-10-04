@@ -20,7 +20,6 @@ public class StopController {
 
     private final List<Route> routes;
 
-
     public StopController() {
 
     }
@@ -28,8 +27,6 @@ public class StopController {
     @GetMapping(value = "/stops")
     public Object getRoutes() {
         return service.getRoutes();
-
-      return new ArrayList<>(routes);
     }
 
     @GetMapping(value = "/arrivals/{parentId}")
