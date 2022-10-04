@@ -4,7 +4,9 @@ import dev.ginamirando.reachablebackend.configuration.StopConfiguration;
 import dev.ginamirando.reachablebackend.models.Arrival;
 import dev.ginamirando.reachablebackend.models.CtaResponse;
 import dev.ginamirando.reachablebackend.models.Ctatt;
+import dev.ginamirando.reachablebackend.models.LStops;
 import org.springframework.context.annotation.Primary;
+import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -24,21 +26,8 @@ public class StopServiceImplAPI implements StopService {
     }
 
     @Override
-    public Object getRoutes() {
-        URI uri = UriComponentsBuilder.newInstance()
-                .scheme("https")
-                .host("data.cityofchicago.org")
-                .path("/resource/8pix-ypme.json")
-                .build()
-                .toUri();
-        System.out.println(uri);
-        WebClient client = WebClient.create();
-        return client.get()
-                .uri(uri)
-                .accept(MediaType.APPLICATION_JSON)
-                .retrieve()
-                .bodyToMono(Object.class).log()
-                .block();
+    public List<LStops> getRoutes() {
+        return StopDataService.allBlueStops();
     }
 
     @Override
