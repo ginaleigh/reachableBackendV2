@@ -20,9 +20,11 @@ public class StopController {
 
     private final List<Route> routes;
 
-    public StopController() {
-
+    private StopController(@Autowired StopService service) {
+        this.service = service;
+        routes = new ArrayList<>();
     }
+
 
     @GetMapping(value = "/stops")
     public Object getRoutes() {
@@ -30,7 +32,7 @@ public class StopController {
     }
 
     @GetMapping(value = "/arrivals/{parentId}")
-    private final List<Arrival> getArrivals(@PathVariable Integer parentId) {
+    public List<Arrival> getArrivals(@PathVariable Integer parentId) {
                 if(parentId != null && parentId > 30_000)
                 {
                     return service.getArrival(parentId);
