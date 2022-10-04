@@ -10,6 +10,7 @@ public class ReachableBackendApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ReachableBackendApplication.class, args);
+
     }
 
 }

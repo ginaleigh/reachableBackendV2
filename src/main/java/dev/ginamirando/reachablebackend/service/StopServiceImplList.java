@@ -22,7 +22,7 @@ public class StopServiceImplList implements StopService {
 
     }
     @Override
-    public List<Route> getRoutes() {
+    public List<LStops> getRoutes() {
         return null;
     }
 
