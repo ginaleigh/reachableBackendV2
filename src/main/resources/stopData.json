@@ -1,0 +1,3518 @@
+{
+  "Stops(stopId=40630, stopCode=null, stopName=Clark/Division, stopDescription=, stopLatitude=41.90392, stopLongitude=-87.631412, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30121,
+      "stopCode": null,
+      "stopName": "Clark/Division",
+      "stopDescription": "",
+      "stopLatitude": "41.90392",
+      "stopLongitude": "-87.631412",
+      "locationType": "0",
+      "parentStation": 40630,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30122,
+      "stopCode": null,
+      "stopName": "Clark/Division",
+      "stopDescription": "",
+      "stopLatitude": "41.90392",
+      "stopLongitude": "-87.631412",
+      "locationType": "0",
+      "parentStation": 40630,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41340, stopCode=null, stopName=LaSalle, stopDescription=, stopLatitude=41.875568, stopLongitude=-87.631722, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30261,
+      "stopCode": null,
+      "stopName": "LaSalle",
+      "stopDescription": "",
+      "stopLatitude": "41.875568",
+      "stopLongitude": "-87.631722",
+      "locationType": "0",
+      "parentStation": 41340,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30262,
+      "stopCode": null,
+      "stopName": "LaSalle",
+      "stopDescription": "",
+      "stopLatitude": "41.875568",
+      "stopLongitude": "-87.631722",
+      "locationType": "0",
+      "parentStation": 41340,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40510, stopCode=null, stopName=Garfield (Green), stopDescription=, stopLatitude=41.795172, stopLongitude=-87.618327, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30099,
+      "stopCode": null,
+      "stopName": "Garfield-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.795172",
+      "stopLongitude": "-87.618327",
+      "locationType": "0",
+      "parentStation": 40510,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30100,
+      "stopCode": null,
+      "stopName": "Garfield-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.795172",
+      "stopLongitude": "-87.618327",
+      "locationType": "0",
+      "parentStation": 40510,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41120, stopCode=null, stopName=35th-Bronzeville-IIT, stopDescription=, stopLatitude=41.831677, stopLongitude=-87.625826, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30213,
+      "stopCode": null,
+      "stopName": "35-Bronzeville-IIT",
+      "stopDescription": "",
+      "stopLatitude": "41.831677",
+      "stopLongitude": "-87.625826",
+      "locationType": "0",
+      "parentStation": 41120,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30214,
+      "stopCode": null,
+      "stopName": "35-Bronzeville-IIT",
+      "stopDescription": "",
+      "stopLatitude": "41.831677",
+      "stopLongitude": "-87.625826",
+      "locationType": "0",
+      "parentStation": 41120,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40130, stopCode=null, stopName=51st, stopDescription=, stopLatitude=41.80209, stopLongitude=-87.618487, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30024,
+      "stopCode": null,
+      "stopName": "51st",
+      "stopDescription": "",
+      "stopLatitude": "41.80209",
+      "stopLongitude": "-87.618487",
+      "locationType": "0",
+      "parentStation": 40130,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30025,
+      "stopCode": null,
+      "stopName": "51st",
+      "stopDescription": "",
+      "stopLatitude": "41.80209",
+      "stopLongitude": "-87.618487",
+      "locationType": "0",
+      "parentStation": 40130,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40700, stopCode=null, stopName=Laramie, stopDescription=, stopLatitude=41.887163, stopLongitude=-87.754986, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30135,
+      "stopCode": null,
+      "stopName": "Laramie",
+      "stopDescription": "",
+      "stopLatitude": "41.887163",
+      "stopLongitude": "-87.754986",
+      "locationType": "0",
+      "parentStation": 40700,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30136,
+      "stopCode": null,
+      "stopName": "Laramie",
+      "stopDescription": "",
+      "stopLatitude": "41.887163",
+      "stopLongitude": "-87.754986",
+      "locationType": "0",
+      "parentStation": 40700,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40560, stopCode=null, stopName=Jackson (Red), stopDescription=, stopLatitude=41.878153, stopLongitude=-87.627596, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30109,
+      "stopCode": null,
+      "stopName": "Jackson-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.878153",
+      "stopLongitude": "-87.627596",
+      "locationType": "0",
+      "parentStation": 40560,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30110,
+      "stopCode": null,
+      "stopName": "Jackson-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.878153",
+      "stopLongitude": "-87.627596",
+      "locationType": "0",
+      "parentStation": 40560,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41220, stopCode=null, stopName=Fullerton, stopDescription=, stopLatitude=41.9253003719, stopLongitude=-87.6528684398, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30233,
+      "stopCode": null,
+      "stopName": "Fullerton",
+      "stopDescription": "",
+      "stopLatitude": "41.925051",
+      "stopLongitude": "-87.652866",
+      "locationType": "0",
+      "parentStation": 41220,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30234,
+      "stopCode": null,
+      "stopName": "Fullerton",
+      "stopDescription": "",
+      "stopLatitude": "41.925051",
+      "stopLongitude": "-87.652866",
+      "locationType": "0",
+      "parentStation": 41220,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30235,
+      "stopCode": null,
+      "stopName": "Fullerton",
+      "stopDescription": "",
+      "stopLatitude": "41.925051",
+      "stopLongitude": "-87.652866",
+      "locationType": "0",
+      "parentStation": 41220,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30236,
+      "stopCode": null,
+      "stopName": "Fullerton",
+      "stopDescription": "",
+      "stopLatitude": "41.925051",
+      "stopLongitude": "-87.652866",
+      "locationType": "0",
+      "parentStation": 41220,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40480, stopCode=null, stopName=Cicero (Green), stopDescription=, stopLatitude=41.886519, stopLongitude=-87.744698, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30009,
+      "stopCode": null,
+      "stopName": "Cicero-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.886519",
+      "stopLongitude": "-87.744698",
+      "locationType": "0",
+      "parentStation": 40480,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30094,
+      "stopCode": null,
+      "stopName": "Cicero-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.886519",
+      "stopLongitude": "-87.744698",
+      "locationType": "0",
+      "parentStation": 40480,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41240, stopCode=null, stopName=Addison (Blue), stopDescription=, stopLatitude=41.9466037164, stopLongitude=-87.7184584172, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30239,
+      "stopCode": null,
+      "stopName": "Addison-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.94738",
+      "stopLongitude": "-87.71906",
+      "locationType": "0",
+      "parentStation": 41240,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30240,
+      "stopCode": null,
+      "stopName": "Addison-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.94738",
+      "stopLongitude": "-87.71906",
+      "locationType": "0",
+      "parentStation": 41240,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40980, stopCode=null, stopName=Harlem (Blue - Forest Park Branch), stopDescription=, stopLatitude=41.87349, stopLongitude=-87.806961, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30189,
+      "stopCode": null,
+      "stopName": "Harlem-Forest Park",
+      "stopDescription": "",
+      "stopLatitude": "41.87349",
+      "stopLongitude": "-87.806961",
+      "locationType": "0",
+      "parentStation": 40980,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30190,
+      "stopCode": null,
+      "stopName": "Harlem-Forest Park",
+      "stopDescription": "",
+      "stopLatitude": "41.87349",
+      "stopLongitude": "-87.806961",
+      "locationType": "0",
+      "parentStation": 40980,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41040, stopCode=null, stopName=Kedzie (Pink), stopDescription=, stopLatitude=41.853964, stopLongitude=-87.705408, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30201,
+      "stopCode": null,
+      "stopName": "Kedzie-Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.853964",
+      "stopLongitude": "-87.705408",
+      "locationType": "0",
+      "parentStation": 41040,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30202,
+      "stopCode": null,
+      "stopName": "Kedzie-Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.853964",
+      "stopLongitude": "-87.705408",
+      "locationType": "0",
+      "parentStation": 41040,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40520, stopCode=null, stopName=Foster, stopDescription=, stopLatitude=42.05416, stopLongitude=-87.68356, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30101,
+      "stopCode": null,
+      "stopName": "Foster",
+      "stopDescription": "",
+      "stopLatitude": "42.05416",
+      "stopLongitude": "-87.68356",
+      "locationType": "0",
+      "parentStation": 40520,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30102,
+      "stopCode": null,
+      "stopName": "Foster",
+      "stopDescription": "",
+      "stopLatitude": "42.05416",
+      "stopLongitude": "-87.68356",
+      "locationType": "0",
+      "parentStation": 40520,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40730, stopCode=null, stopName=Washington/Wells, stopDescription=, stopLatitude=41.882695, stopLongitude=-87.63378, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30141,
+      "stopCode": null,
+      "stopName": "Washington/Wells",
+      "stopDescription": "",
+      "stopLatitude": "41.882695",
+      "stopLongitude": "-87.63378",
+      "locationType": "0",
+      "parentStation": 40730,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30142,
+      "stopCode": null,
+      "stopName": "Washington/Wells",
+      "stopDescription": "",
+      "stopLatitude": "41.882695",
+      "stopLongitude": "-87.63378",
+      "locationType": "0",
+      "parentStation": 40730,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41130, stopCode=null, stopName=Halsted (Orange), stopDescription=, stopLatitude=41.84678, stopLongitude=-87.648088, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30215,
+      "stopCode": null,
+      "stopName": "Halsted-Orange",
+      "stopDescription": "",
+      "stopLatitude": "41.84678",
+      "stopLongitude": "-87.648088",
+      "locationType": "0",
+      "parentStation": 41130,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30216,
+      "stopCode": null,
+      "stopName": "Halsted-Orange",
+      "stopDescription": "",
+      "stopLatitude": "41.84678",
+      "stopLongitude": "-87.648088",
+      "locationType": "0",
+      "parentStation": 41130,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40490, stopCode=null, stopName=Grand (Blue), stopDescription=, stopLatitude=41.891189, stopLongitude=-87.647578, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30095,
+      "stopCode": null,
+      "stopName": "Grand-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.891189",
+      "stopLongitude": "-87.647578",
+      "locationType": "0",
+      "parentStation": 40490,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30096,
+      "stopCode": null,
+      "stopName": "Grand-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.891189",
+      "stopLongitude": "-87.647578",
+      "locationType": "0",
+      "parentStation": 40490,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40570, stopCode=null, stopName=California (Blue), stopDescription=, stopLatitude=41.9221583097, stopLongitude=-87.6972439537, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30111,
+      "stopCode": null,
+      "stopName": "California-O'Hare",
+      "stopDescription": "",
+      "stopLatitude": "41.921939",
+      "stopLongitude": "-87.69689",
+      "locationType": "0",
+      "parentStation": 40570,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30112,
+      "stopCode": null,
+      "stopName": "California-O'Hare",
+      "stopDescription": "",
+      "stopLatitude": "41.921939",
+      "stopLongitude": "-87.69689",
+      "locationType": "0",
+      "parentStation": 40570,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40670, stopCode=null, stopName=Western (Blue - O'Hare Branch), stopDescription=, stopLatitude=41.916157, stopLongitude=-87.687364, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30129,
+      "stopCode": null,
+      "stopName": "Western-O'Hare",
+      "stopDescription": "",
+      "stopLatitude": "41.916157",
+      "stopLongitude": "-87.687364",
+      "locationType": "0",
+      "parentStation": 40670,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30130,
+      "stopCode": null,
+      "stopName": "Western-O'Hare",
+      "stopDescription": "",
+      "stopLatitude": "41.916157",
+      "stopLongitude": "-87.687364",
+      "locationType": "0",
+      "parentStation": 40670,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40450, stopCode=null, stopName=95th/Dan Ryan, stopDescription=, stopLatitude=41.722377, stopLongitude=-87.624342, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30088,
+      "stopCode": null,
+      "stopName": "95th",
+      "stopDescription": "",
+      "stopLatitude": "41.722377",
+      "stopLongitude": "-87.624342",
+      "locationType": "0",
+      "parentStation": 40450,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30089,
+      "stopCode": null,
+      "stopName": "95th",
+      "stopDescription": "",
+      "stopLatitude": "41.722377",
+      "stopLongitude": "-87.624342",
+      "locationType": "0",
+      "parentStation": 40450,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41670, stopCode=null, stopName=Conservatory-Central Park Drive, stopDescription=, stopLatitude=41.884904, stopLongitude=-87.716523, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30291,
+      "stopCode": null,
+      "stopName": "Conservatory",
+      "stopDescription": "",
+      "stopLatitude": "41.884904",
+      "stopLongitude": "-87.716523",
+      "locationType": "0",
+      "parentStation": 41670,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30292,
+      "stopCode": null,
+      "stopName": "Conservatory",
+      "stopDescription": "",
+      "stopLatitude": "41.884904",
+      "stopLongitude": "-87.716523",
+      "locationType": "0",
+      "parentStation": 41670,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41420, stopCode=null, stopName=Addison (Red), stopDescription=, stopLatitude=41.947316173, stopLongitude=-87.6536241013, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30273,
+      "stopCode": null,
+      "stopName": "Addison-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.947428",
+      "stopLongitude": "-87.653626",
+      "locationType": "0",
+      "parentStation": 41420,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30274,
+      "stopCode": null,
+      "stopName": "Addison-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.947428",
+      "stopLongitude": "-87.653626",
+      "locationType": "0",
+      "parentStation": 41420,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41500, stopCode=null, stopName=Montrose (Brown), stopDescription=, stopLatitude=41.961756, stopLongitude=-87.675047, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30287,
+      "stopCode": null,
+      "stopName": "Montrose-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.961756",
+      "stopLongitude": "-87.675047",
+      "locationType": "0",
+      "parentStation": 41500,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30288,
+      "stopCode": null,
+      "stopName": "Montrose-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.961756",
+      "stopLongitude": "-87.675047",
+      "locationType": "0",
+      "parentStation": 41500,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40270, stopCode=null, stopName=Main, stopDescription=, stopLatitude=42.033456, stopLongitude=-87.679538, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30052,
+      "stopCode": null,
+      "stopName": "Main",
+      "stopDescription": "",
+      "stopLatitude": "42.033456",
+      "stopLongitude": "-87.679538",
+      "locationType": "0",
+      "parentStation": 40270,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30053,
+      "stopCode": null,
+      "stopName": "Main",
+      "stopDescription": "",
+      "stopLatitude": "42.033456",
+      "stopLongitude": "-87.679538",
+      "locationType": "0",
+      "parentStation": 40270,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41080, stopCode=null, stopName=47th (Green), stopDescription=, stopLatitude=41.809209, stopLongitude=-87.618826, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30209,
+      "stopCode": null,
+      "stopName": "47th-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.809209",
+      "stopLongitude": "-87.618826",
+      "locationType": "0",
+      "parentStation": 41080,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30210,
+      "stopCode": null,
+      "stopName": "47th-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.809209",
+      "stopLongitude": "-87.618826",
+      "locationType": "0",
+      "parentStation": 41080,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40080, stopCode=null, stopName=Sheridan, stopDescription=, stopLatitude=41.9539048386, stopLongitude=-87.6546614127, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30016,
+      "stopCode": null,
+      "stopName": "Sheridan",
+      "stopDescription": "",
+      "stopLatitude": "41.953775",
+      "stopLongitude": "-87.654929",
+      "locationType": "0",
+      "parentStation": 40080,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30017,
+      "stopCode": null,
+      "stopName": "Sheridan",
+      "stopDescription": "",
+      "stopLatitude": "41.953775",
+      "stopLongitude": "-87.654929",
+      "locationType": "0",
+      "parentStation": 40080,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40070, stopCode=null, stopName=Jackson (Blue), stopDescription=, stopLatitude=41.878183, stopLongitude=-87.629296, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30014,
+      "stopCode": null,
+      "stopName": "Jackson-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.878183",
+      "stopLongitude": "-87.629296",
+      "locationType": "0",
+      "parentStation": 40070,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30015,
+      "stopCode": null,
+      "stopName": "Jackson-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.878183",
+      "stopLongitude": "-87.629296",
+      "locationType": "0",
+      "parentStation": 40070,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40880, stopCode=null, stopName=Thorndale, stopDescription=, stopLatitude=41.9900990857, stopLongitude=-87.6590684978, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30169,
+      "stopCode": null,
+      "stopName": "Thorndale",
+      "stopDescription": "",
+      "stopLatitude": "41.990259",
+      "stopLongitude": "-87.659076",
+      "locationType": "0",
+      "parentStation": 40880,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30170,
+      "stopCode": null,
+      "stopName": "Thorndale",
+      "stopDescription": "",
+      "stopLatitude": "41.990259",
+      "stopLongitude": "-87.659076",
+      "locationType": "0",
+      "parentStation": 40880,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41050, stopCode=null, stopName=Linden, stopDescription=, stopLatitude=42.073153, stopLongitude=-87.69073, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30203,
+      "stopCode": null,
+      "stopName": "Linden",
+      "stopDescription": "",
+      "stopLatitude": "42.073153",
+      "stopLongitude": "-87.69073",
+      "locationType": "0",
+      "parentStation": 41050,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30204,
+      "stopCode": null,
+      "stopName": "Linden",
+      "stopDescription": "",
+      "stopLatitude": "42.073153",
+      "stopLongitude": "-87.69073",
+      "locationType": "0",
+      "parentStation": 41050,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40240, stopCode=null, stopName=79th, stopDescription=, stopLatitude=41.750419, stopLongitude=-87.625112, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30046,
+      "stopCode": null,
+      "stopName": "79th",
+      "stopDescription": "",
+      "stopLatitude": "41.750419",
+      "stopLongitude": "-87.625112",
+      "locationType": "0",
+      "parentStation": 40240,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30047,
+      "stopCode": null,
+      "stopName": "79th",
+      "stopDescription": "",
+      "stopLatitude": "41.750419",
+      "stopLongitude": "-87.625112",
+      "locationType": "0",
+      "parentStation": 40240,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41680, stopCode=null, stopName=Oakton-Skokie, stopDescription=, stopLatitude=42.02624348, stopLongitude=-87.74722084, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30297,
+      "stopCode": null,
+      "stopName": "Oakton-Skokie",
+      "stopDescription": "",
+      "stopLatitude": "42.02624348",
+      "stopLongitude": "-87.74722084",
+      "locationType": "0",
+      "parentStation": 41680,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30298,
+      "stopCode": null,
+      "stopName": "Oakton-Skokie",
+      "stopDescription": "",
+      "stopLatitude": "42.02624348",
+      "stopLongitude": "-87.74722084",
+      "locationType": "0",
+      "parentStation": 41680,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40470, stopCode=null, stopName=Racine, stopDescription=, stopLatitude=41.87592, stopLongitude=-87.659458, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30092,
+      "stopCode": null,
+      "stopName": "Racine",
+      "stopDescription": "",
+      "stopLatitude": "41.87592",
+      "stopLongitude": "-87.659458",
+      "locationType": "0",
+      "parentStation": 40470,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30093,
+      "stopCode": null,
+      "stopName": "Racine",
+      "stopDescription": "",
+      "stopLatitude": "41.87592",
+      "stopLongitude": "-87.659458",
+      "locationType": "0",
+      "parentStation": 40470,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41260, stopCode=null, stopName=Austin (Green), stopDescription=, stopLatitude=41.887293, stopLongitude=-87.774135, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30243,
+      "stopCode": null,
+      "stopName": "Austin-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.887293",
+      "stopLongitude": "-87.774135",
+      "locationType": "0",
+      "parentStation": 41260,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30244,
+      "stopCode": null,
+      "stopName": "Austin-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.887293",
+      "stopLongitude": "-87.774135",
+      "locationType": "0",
+      "parentStation": 41260,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41170, stopCode=null, stopName=Garfield (Red), stopDescription=, stopLatitude=41.79542, stopLongitude=-87.631157, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30223,
+      "stopCode": null,
+      "stopName": "Garfield-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.79542",
+      "stopLongitude": "-87.631157",
+      "locationType": "0",
+      "parentStation": 41170,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30224,
+      "stopCode": null,
+      "stopName": "Garfield-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.79542",
+      "stopLongitude": "-87.631157",
+      "locationType": "0",
+      "parentStation": 41170,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40580, stopCode=null, stopName=54th/Cermak, stopDescription=, stopLatitude=41.85177331, stopLongitude=-87.75669201, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30113,
+      "stopCode": null,
+      "stopName": "54th/Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.85177331",
+      "stopLongitude": "-87.75669201",
+      "locationType": "0",
+      "parentStation": 40580,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30114,
+      "stopCode": null,
+      "stopName": "54th/Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.85177331",
+      "stopLongitude": "-87.75669201",
+      "locationType": "0",
+      "parentStation": 40580,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40360, stopCode=null, stopName=Southport, stopDescription=, stopLatitude=41.943744, stopLongitude=-87.663619, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30070,
+      "stopCode": null,
+      "stopName": "Southport",
+      "stopDescription": "",
+      "stopLatitude": "41.943744",
+      "stopLongitude": "-87.663619",
+      "locationType": "0",
+      "parentStation": 40360,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30071,
+      "stopCode": null,
+      "stopName": "Southport",
+      "stopDescription": "",
+      "stopLatitude": "41.943744",
+      "stopLongitude": "-87.663619",
+      "locationType": "0",
+      "parentStation": 40360,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40650, stopCode=null, stopName=North/Clybourn, stopDescription=, stopLatitude=41.910655, stopLongitude=-87.649177, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30125,
+      "stopCode": null,
+      "stopName": "North/Clybourn",
+      "stopDescription": "",
+      "stopLatitude": "41.910655",
+      "stopLongitude": "-87.649177",
+      "locationType": "0",
+      "parentStation": 40650,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30126,
+      "stopCode": null,
+      "stopName": "North/Clybourn",
+      "stopDescription": "",
+      "stopLatitude": "41.910655",
+      "stopLongitude": "-87.649177",
+      "locationType": "0",
+      "parentStation": 40650,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41060, stopCode=null, stopName=Ashland (Orange), stopDescription=, stopLatitude=41.839234, stopLongitude=-87.665317, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30205,
+      "stopCode": null,
+      "stopName": "Ashland-Orange",
+      "stopDescription": "",
+      "stopLatitude": "41.839234",
+      "stopLongitude": "-87.665317",
+      "locationType": "0",
+      "parentStation": 41060,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30206,
+      "stopCode": null,
+      "stopName": "Ashland-Orange",
+      "stopDescription": "",
+      "stopLatitude": "41.839234",
+      "stopLongitude": "-87.665317",
+      "locationType": "0",
+      "parentStation": 41060,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41210, stopCode=null, stopName=Wellington (Brown/Purple), stopDescription=, stopLatitude=41.936033, stopLongitude=-87.653266, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30231,
+      "stopCode": null,
+      "stopName": "Wellington",
+      "stopDescription": "",
+      "stopLatitude": "41.936033",
+      "stopLongitude": "-87.653266",
+      "locationType": "0",
+      "parentStation": 41210,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30232,
+      "stopCode": null,
+      "stopName": "Wellington",
+      "stopDescription": "",
+      "stopLatitude": "41.936033",
+      "stopLongitude": "-87.653266",
+      "locationType": "0",
+      "parentStation": 41210,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40990, stopCode=null, stopName=69th, stopDescription=, stopLatitude=41.768367, stopLongitude=-87.625724, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30191,
+      "stopCode": null,
+      "stopName": "69th",
+      "stopDescription": "",
+      "stopLatitude": "41.768367",
+      "stopLongitude": "-87.625724",
+      "locationType": "0",
+      "parentStation": 40990,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30192,
+      "stopCode": null,
+      "stopName": "69th",
+      "stopDescription": "",
+      "stopLatitude": "41.768367",
+      "stopLongitude": "-87.625724",
+      "locationType": "0",
+      "parentStation": 40990,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40430, stopCode=null, stopName=Clinton (Blue), stopDescription=, stopLatitude=41.875539, stopLongitude=-87.640984, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30084,
+      "stopCode": null,
+      "stopName": "Clinton-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.875539",
+      "stopLongitude": "-87.640984",
+      "locationType": "0",
+      "parentStation": 40430,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30085,
+      "stopCode": null,
+      "stopName": "Clinton-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.875539",
+      "stopLongitude": "-87.640984",
+      "locationType": "0",
+      "parentStation": 40430,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40180, stopCode=null, stopName=Oak Park (Blue), stopDescription=, stopLatitude=41.872108, stopLongitude=-87.791602, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30034,
+      "stopCode": null,
+      "stopName": "Oak Park-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.872108",
+      "stopLongitude": "-87.791602",
+      "locationType": "0",
+      "parentStation": 40180,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30035,
+      "stopCode": null,
+      "stopName": "Oak Park-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.872108",
+      "stopLongitude": "-87.791602",
+      "locationType": "0",
+      "parentStation": 40180,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40330, stopCode=null, stopName=Grand (Red), stopDescription=, stopLatitude=41.891665, stopLongitude=-87.628021, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30064,
+      "stopCode": null,
+      "stopName": "Grand-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.891665",
+      "stopLongitude": "-87.628021",
+      "locationType": "0",
+      "parentStation": 40330,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30065,
+      "stopCode": null,
+      "stopName": "Grand-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.891665",
+      "stopLongitude": "-87.628021",
+      "locationType": "0",
+      "parentStation": 40330,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40970, stopCode=null, stopName=Cicero (Blue), stopDescription=, stopLatitude=41.871574, stopLongitude=-87.745154, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30187,
+      "stopCode": null,
+      "stopName": "Cicero-Forest Park",
+      "stopDescription": "",
+      "stopLatitude": "41.871574",
+      "stopLongitude": "-87.745154",
+      "locationType": "0",
+      "parentStation": 40970,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30188,
+      "stopCode": null,
+      "stopName": "Cicero-Forest Park",
+      "stopDescription": "",
+      "stopLatitude": "41.871574",
+      "stopLongitude": "-87.745154",
+      "locationType": "0",
+      "parentStation": 40970,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41030, stopCode=null, stopName=Polk, stopDescription=, stopLatitude=41.871551, stopLongitude=-87.66953, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30199,
+      "stopCode": null,
+      "stopName": "Polk",
+      "stopDescription": "",
+      "stopLatitude": "41.871551",
+      "stopLongitude": "-87.66953",
+      "locationType": "0",
+      "parentStation": 41030,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30200,
+      "stopCode": null,
+      "stopName": "Polk",
+      "stopDescription": "",
+      "stopLatitude": "41.871551",
+      "stopLongitude": "-87.66953",
+      "locationType": "0",
+      "parentStation": 41030,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41410, stopCode=null, stopName=Chicago (Blue), stopDescription=, stopLatitude=41.896075, stopLongitude=-87.655214, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30271,
+      "stopCode": null,
+      "stopName": "Chicago-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.896075",
+      "stopLongitude": "-87.655214",
+      "locationType": "0",
+      "parentStation": 41410,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30272,
+      "stopCode": null,
+      "stopName": "Chicago-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.896075",
+      "stopLongitude": "-87.655214",
+      "locationType": "0",
+      "parentStation": 41410,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40940, stopCode=null, stopName=Halsted (Green), stopDescription=, stopLatitude=41.778943, stopLongitude=-87.644244, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30183,
+      "stopCode": null,
+      "stopName": "Halsted-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.778943",
+      "stopLongitude": "-87.644244",
+      "locationType": "0",
+      "parentStation": 40940,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30184,
+      "stopCode": null,
+      "stopName": "Halsted-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.778943",
+      "stopLongitude": "-87.644244",
+      "locationType": "0",
+      "parentStation": 40940,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41280, stopCode=null, stopName=Jefferson Park Transit Center, stopDescription=, stopLatitude=41.9702338623, stopLongitude=-87.7615940115, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30247,
+      "stopCode": null,
+      "stopName": "Jefferson Park",
+      "stopDescription": "",
+      "stopLatitude": "41.970634",
+      "stopLongitude": "-87.760892",
+      "locationType": "0",
+      "parentStation": 41280,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30248,
+      "stopCode": null,
+      "stopName": "Jefferson Park",
+      "stopDescription": "",
+      "stopLatitude": "41.970634",
+      "stopLongitude": "-87.760892",
+      "locationType": "0",
+      "parentStation": 41280,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40400, stopCode=null, stopName=Noyes, stopDescription=, stopLatitude=42.058282, stopLongitude=-87.683337, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30078,
+      "stopCode": null,
+      "stopName": "Noyes",
+      "stopDescription": "",
+      "stopLatitude": "42.058282",
+      "stopLongitude": "-87.683337",
+      "locationType": "0",
+      "parentStation": 40400,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30079,
+      "stopCode": null,
+      "stopName": "Noyes",
+      "stopDescription": "",
+      "stopLatitude": "42.058282",
+      "stopLongitude": "-87.683337",
+      "locationType": "0",
+      "parentStation": 40400,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40600, stopCode=null, stopName=Kostner, stopDescription=, stopLatitude=41.853751, stopLongitude=-87.733258, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30117,
+      "stopCode": null,
+      "stopName": "Kostner",
+      "stopDescription": "",
+      "stopLatitude": "41.853751",
+      "stopLongitude": "-87.733258",
+      "locationType": "0",
+      "parentStation": 40600,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30118,
+      "stopCode": null,
+      "stopName": "Kostner",
+      "stopDescription": "",
+      "stopLatitude": "41.853751",
+      "stopLongitude": "-87.733258",
+      "locationType": "0",
+      "parentStation": 40600,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40660, stopCode=null, stopName=Armitage (Brown/Purple), stopDescription=, stopLatitude=41.918217, stopLongitude=-87.652644, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30127,
+      "stopCode": null,
+      "stopName": "Armitage",
+      "stopDescription": "",
+      "stopLatitude": "41.918217",
+      "stopLongitude": "-87.652644",
+      "locationType": "0",
+      "parentStation": 40660,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30128,
+      "stopCode": null,
+      "stopName": "Armitage",
+      "stopDescription": "",
+      "stopLatitude": "41.918217",
+      "stopLongitude": "-87.652644",
+      "locationType": "0",
+      "parentStation": 40660,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41160, stopCode=null, stopName=Clinton (Green/Pink), stopDescription=, stopLatitude=41.885678, stopLongitude=-87.641782, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30221,
+      "stopCode": null,
+      "stopName": "Clinton-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.885678",
+      "stopLongitude": "-87.641782",
+      "locationType": "0",
+      "parentStation": 41160,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30222,
+      "stopCode": null,
+      "stopName": "Clinton-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.885678",
+      "stopLongitude": "-87.641782",
+      "locationType": "0",
+      "parentStation": 41160,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41180, stopCode=null, stopName=Kedzie (Brown), stopDescription=, stopLatitude=41.965996, stopLongitude=-87.708821, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30225,
+      "stopCode": null,
+      "stopName": "Kedzie-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.965996",
+      "stopLongitude": "-87.708821",
+      "locationType": "0",
+      "parentStation": 41180,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30226,
+      "stopCode": null,
+      "stopName": "Kedzie-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.965996",
+      "stopLongitude": "-87.708821",
+      "locationType": "0",
+      "parentStation": 41180,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40220, stopCode=null, stopName=Western (Blue - Forest Park Branch), stopDescription=, stopLatitude=41.875478, stopLongitude=-87.688436, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30042,
+      "stopCode": null,
+      "stopName": "Western-Forest Park",
+      "stopDescription": "",
+      "stopLatitude": "41.875478",
+      "stopLongitude": "-87.688436",
+      "locationType": "0",
+      "parentStation": 40220,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30043,
+      "stopCode": null,
+      "stopName": "Western-Forest Park",
+      "stopDescription": "",
+      "stopLatitude": "41.875478",
+      "stopLongitude": "-87.688436",
+      "locationType": "0",
+      "parentStation": 40220,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40680, stopCode=null, stopName=Adams/Wabash, stopDescription=, stopLatitude=41.879507, stopLongitude=-87.626037, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30131,
+      "stopCode": null,
+      "stopName": "Adams/Wabash",
+      "stopDescription": "",
+      "stopLatitude": "41.879507",
+      "stopLongitude": "-87.626037",
+      "locationType": "0",
+      "parentStation": 40680,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30132,
+      "stopCode": null,
+      "stopName": "Adams/Wabash",
+      "stopDescription": "",
+      "stopLatitude": "41.879507",
+      "stopLongitude": "-87.626037",
+      "locationType": "0",
+      "parentStation": 40680,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40780, stopCode=null, stopName=Central Park, stopDescription=, stopLatitude=41.853839, stopLongitude=-87.714842, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30151,
+      "stopCode": null,
+      "stopName": "Central Park",
+      "stopDescription": "",
+      "stopLatitude": "41.853839",
+      "stopLongitude": "-87.714842",
+      "locationType": "0",
+      "parentStation": 40780,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30152,
+      "stopCode": null,
+      "stopName": "Central Park",
+      "stopDescription": "",
+      "stopLatitude": "41.853839",
+      "stopLongitude": "-87.714842",
+      "locationType": "0",
+      "parentStation": 40780,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41300, stopCode=null, stopName=Loyola, stopDescription=, stopLatitude=42.001073, stopLongitude=-87.661061, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30251,
+      "stopCode": null,
+      "stopName": "Loyola",
+      "stopDescription": "",
+      "stopLatitude": "42.001073",
+      "stopLongitude": "-87.661061",
+      "locationType": "0",
+      "parentStation": 41300,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30252,
+      "stopCode": null,
+      "stopName": "Loyola",
+      "stopDescription": "",
+      "stopLatitude": "42.001073",
+      "stopLongitude": "-87.661061",
+      "locationType": "0",
+      "parentStation": 41300,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40320, stopCode=null, stopName=Division, stopDescription=, stopLatitude=41.903355, stopLongitude=-87.666496, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30062,
+      "stopCode": null,
+      "stopName": "Division",
+      "stopDescription": "",
+      "stopLatitude": "41.903355",
+      "stopLongitude": "-87.666496",
+      "locationType": "0",
+      "parentStation": 40320,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30063,
+      "stopCode": null,
+      "stopName": "Division",
+      "stopDescription": "",
+      "stopLatitude": "41.903355",
+      "stopLongitude": "-87.666496",
+      "locationType": "0",
+      "parentStation": 40320,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40390, stopCode=null, stopName=Forest Park, stopDescription=, stopLatitude=41.874257, stopLongitude=-87.817318, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30076,
+      "stopCode": null,
+      "stopName": "Forest Park",
+      "stopDescription": "",
+      "stopLatitude": "41.874257",
+      "stopLongitude": "-87.817318",
+      "locationType": "0",
+      "parentStation": 40390,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30077,
+      "stopCode": null,
+      "stopName": "Forest Park",
+      "stopDescription": "",
+      "stopLatitude": "41.874257",
+      "stopLongitude": "-87.817318",
+      "locationType": "0",
+      "parentStation": 40390,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40930, stopCode=null, stopName=Midway, stopDescription=, stopLatitude=41.78661, stopLongitude=-87.737875, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30181,
+      "stopCode": null,
+      "stopName": "Midway",
+      "stopDescription": "",
+      "stopLatitude": "41.78661",
+      "stopLongitude": "-87.737875",
+      "locationType": "0",
+      "parentStation": 40930,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30182,
+      "stopCode": null,
+      "stopName": "Midway",
+      "stopDescription": "",
+      "stopLatitude": "41.78661",
+      "stopLongitude": "-87.737875",
+      "locationType": "0",
+      "parentStation": 40930,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40870, stopCode=null, stopName=Francisco, stopDescription=, stopLatitude=41.966046, stopLongitude=-87.701644, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30167,
+      "stopCode": null,
+      "stopName": "Francisco",
+      "stopDescription": "",
+      "stopLatitude": "41.966046",
+      "stopLongitude": "-87.701644",
+      "locationType": "0",
+      "parentStation": 40870,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30168,
+      "stopCode": null,
+      "stopName": "Francisco",
+      "stopDescription": "",
+      "stopLatitude": "41.966046",
+      "stopLongitude": "-87.701644",
+      "locationType": "0",
+      "parentStation": 40870,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40060, stopCode=null, stopName=Belmont (Blue), stopDescription=, stopLatitude=41.9391107041, stopLongitude=-87.71225212, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30012,
+      "stopCode": null,
+      "stopName": "Belmont-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.938132",
+      "stopLongitude": "-87.712359",
+      "locationType": "0",
+      "parentStation": 40060,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30013,
+      "stopCode": null,
+      "stopName": "Belmont-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.938132",
+      "stopLongitude": "-87.712359",
+      "locationType": "0",
+      "parentStation": 40060,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41440, stopCode=null, stopName=Addison (Brown), stopDescription=, stopLatitude=41.947028, stopLongitude=-87.674642, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30277,
+      "stopCode": null,
+      "stopName": "Addison-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.947028",
+      "stopLongitude": "-87.674642",
+      "locationType": "0",
+      "parentStation": 41440,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30278,
+      "stopCode": null,
+      "stopName": "Addison-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.947028",
+      "stopLongitude": "-87.674642",
+      "locationType": "0",
+      "parentStation": 41440,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40420, stopCode=null, stopName=Cicero (Pink), stopDescription=, stopLatitude=41.85182, stopLongitude=-87.745336, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30082,
+      "stopCode": null,
+      "stopName": "Cicero-Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.85182",
+      "stopLongitude": "-87.745336",
+      "locationType": "0",
+      "parentStation": 40420,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30083,
+      "stopCode": null,
+      "stopName": "Cicero-Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.85182",
+      "stopLongitude": "-87.745336",
+      "locationType": "0",
+      "parentStation": 40420,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40540, stopCode=null, stopName=Wilson, stopDescription=, stopLatitude=41.965481568, stopLongitude=-87.6579258145, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30105,
+      "stopCode": null,
+      "stopName": "Wilson-North Inner",
+      "stopDescription": "",
+      "stopLatitude": "41.964273",
+      "stopLongitude": "-87.657588",
+      "locationType": "0",
+      "parentStation": 40540,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30106,
+      "stopCode": null,
+      "stopName": "Wilson-South Inner",
+      "stopDescription": "",
+      "stopLatitude": "41.964273",
+      "stopLongitude": "-87.657588",
+      "locationType": "0",
+      "parentStation": 40540,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30385,
+      "stopCode": null,
+      "stopName": "Wilson-South Outer",
+      "stopDescription": "",
+      "stopLatitude": "41.964273",
+      "stopLongitude": "-87.657588",
+      "locationType": "0",
+      "parentStation": 40540,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30386,
+      "stopCode": null,
+      "stopName": "Wilson-North Outer",
+      "stopDescription": "",
+      "stopLatitude": "41.964273",
+      "stopLongitude": "-87.657588",
+      "locationType": "0",
+      "parentStation": 40540,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40380, stopCode=null, stopName=Clark/Lake, stopDescription=, stopLatitude=41.885737, stopLongitude=-87.630886, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30074,
+      "stopCode": null,
+      "stopName": "Clark/Lake (Elevated)",
+      "stopDescription": "",
+      "stopLatitude": "41.885737",
+      "stopLongitude": "-87.630886",
+      "locationType": "0",
+      "parentStation": 40380,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30075,
+      "stopCode": null,
+      "stopName": "Clark/Lake (Elevated)",
+      "stopDescription": "",
+      "stopLatitude": "41.885737",
+      "stopLongitude": "-87.630886",
+      "locationType": "0",
+      "parentStation": 40380,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30374,
+      "stopCode": null,
+      "stopName": "Clark/Lake (Subway)",
+      "stopDescription": "",
+      "stopLatitude": "41.885737",
+      "stopLongitude": "-87.630886",
+      "locationType": "0",
+      "parentStation": 40380,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30375,
+      "stopCode": null,
+      "stopName": "Clark/Lake (Subway)",
+      "stopDescription": "",
+      "stopLatitude": "41.885737",
+      "stopLongitude": "-87.630886",
+      "locationType": "0",
+      "parentStation": 40380,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41320, stopCode=null, stopName=Belmont (Red/Brown/Purple), stopDescription=, stopLatitude=41.939751, stopLongitude=-87.65338, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30255,
+      "stopCode": null,
+      "stopName": "Belmont",
+      "stopDescription": "",
+      "stopLatitude": "41.939751",
+      "stopLongitude": "-87.65338",
+      "locationType": "0",
+      "parentStation": 41320,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30256,
+      "stopCode": null,
+      "stopName": "Belmont",
+      "stopDescription": "",
+      "stopLatitude": "41.939751",
+      "stopLongitude": "-87.65338",
+      "locationType": "0",
+      "parentStation": 41320,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30257,
+      "stopCode": null,
+      "stopName": "Belmont",
+      "stopDescription": "",
+      "stopLatitude": "41.939751",
+      "stopLongitude": "-87.65338",
+      "locationType": "0",
+      "parentStation": 41320,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30258,
+      "stopCode": null,
+      "stopName": "Belmont",
+      "stopDescription": "",
+      "stopLatitude": "41.939751",
+      "stopLongitude": "-87.65338",
+      "locationType": "0",
+      "parentStation": 41320,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40760, stopCode=null, stopName=Granville, stopDescription=, stopLatitude=41.9944830093, stopLongitude=-87.6591866269, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30147,
+      "stopCode": null,
+      "stopName": "Granville",
+      "stopDescription": "",
+      "stopLatitude": "41.993664",
+      "stopLongitude": "-87.659202",
+      "locationType": "0",
+      "parentStation": 40760,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30148,
+      "stopCode": null,
+      "stopName": "Granville",
+      "stopDescription": "",
+      "stopLatitude": "41.993664",
+      "stopLongitude": "-87.659202",
+      "locationType": "0",
+      "parentStation": 40760,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41350, stopCode=null, stopName=Oak Park (Green), stopDescription=, stopLatitude=41.886988, stopLongitude=-87.793783, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30263,
+      "stopCode": null,
+      "stopName": "Oak Park-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.886988",
+      "stopLongitude": "-87.793783",
+      "locationType": "0",
+      "parentStation": 41350,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30264,
+      "stopCode": null,
+      "stopName": "Oak Park-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.886988",
+      "stopLongitude": "-87.793783",
+      "locationType": "0",
+      "parentStation": 41350,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41290, stopCode=null, stopName=Kimball, stopDescription=, stopLatitude=41.967901, stopLongitude=-87.713065, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30249,
+      "stopCode": null,
+      "stopName": "Kimball",
+      "stopDescription": "",
+      "stopLatitude": "41.967901",
+      "stopLongitude": "-87.713065",
+      "locationType": "0",
+      "parentStation": 41290,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30250,
+      "stopCode": null,
+      "stopName": "Kimball",
+      "stopDescription": "",
+      "stopLatitude": "41.967901",
+      "stopLongitude": "-87.713065",
+      "locationType": "0",
+      "parentStation": 41290,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41460, stopCode=null, stopName=Irving Park (Brown), stopDescription=, stopLatitude=41.954521, stopLongitude=-87.674868, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30281,
+      "stopCode": null,
+      "stopName": "Irving Park-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.954521",
+      "stopLongitude": "-87.674868",
+      "locationType": "0",
+      "parentStation": 41460,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30282,
+      "stopCode": null,
+      "stopName": "Irving Park-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.954521",
+      "stopLongitude": "-87.674868",
+      "locationType": "0",
+      "parentStation": 41460,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41700, stopCode=null, stopName=Washington/Wabash, stopDescription=, stopLatitude=41.88322, stopLongitude=-87.626189, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30383,
+      "stopCode": null,
+      "stopName": "Washington/Wabash",
+      "stopDescription": "",
+      "stopLatitude": "41.88322",
+      "stopLongitude": "-87.626189",
+      "locationType": "0",
+      "parentStation": 41700,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30384,
+      "stopCode": null,
+      "stopName": "Washington/Wabash",
+      "stopDescription": "",
+      "stopLatitude": "41.88322",
+      "stopLongitude": "-87.626189",
+      "locationType": "0",
+      "parentStation": 41700,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41490, stopCode=null, stopName=Harrison, stopDescription=, stopLatitude=41.874039, stopLongitude=-87.627479, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30285,
+      "stopCode": null,
+      "stopName": "Harrison",
+      "stopDescription": "",
+      "stopLatitude": "41.874039",
+      "stopLongitude": "-87.627479",
+      "locationType": "0",
+      "parentStation": 41490,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30286,
+      "stopCode": null,
+      "stopName": "Harrison",
+      "stopDescription": "",
+      "stopLatitude": "41.874039",
+      "stopLongitude": "-87.627479",
+      "locationType": "0",
+      "parentStation": 41490,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40280, stopCode=null, stopName=Central (Green), stopDescription=, stopLatitude=41.887389, stopLongitude=-87.76565, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30054,
+      "stopCode": null,
+      "stopName": "Central-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.887389",
+      "stopLongitude": "-87.76565",
+      "locationType": "0",
+      "parentStation": 40280,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30055,
+      "stopCode": null,
+      "stopName": "Central-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.887389",
+      "stopLongitude": "-87.76565",
+      "locationType": "0",
+      "parentStation": 40280,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40460, stopCode=null, stopName=Merchandise Mart (Brown/Purple), stopDescription=, stopLatitude=41.888969, stopLongitude=-87.633924, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30090,
+      "stopCode": null,
+      "stopName": "Merchandise Mart",
+      "stopDescription": "",
+      "stopLatitude": "41.888969",
+      "stopLongitude": "-87.633924",
+      "locationType": "0",
+      "parentStation": 40460,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30091,
+      "stopCode": null,
+      "stopName": "Merchandise Mart",
+      "stopDescription": "",
+      "stopLatitude": "41.888969",
+      "stopLongitude": "-87.633924",
+      "locationType": "0",
+      "parentStation": 40460,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40290, stopCode=null, stopName=Ashland/63rd, stopDescription=, stopLatitude=41.77886, stopLongitude=-87.663766, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30056,
+      "stopCode": null,
+      "stopName": "Ashland/63rd",
+      "stopDescription": "",
+      "stopLatitude": "41.77886",
+      "stopLongitude": "-87.663766",
+      "locationType": "0",
+      "parentStation": 40290,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30057,
+      "stopCode": null,
+      "stopName": "Ashland/63rd",
+      "stopDescription": "",
+      "stopLatitude": "41.77886",
+      "stopLongitude": "-87.663766",
+      "locationType": "0",
+      "parentStation": 40290,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40810, stopCode=null, stopName=Illinois Medical District, stopDescription=, stopLatitude=41.875706, stopLongitude=-87.673932, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30157,
+      "stopCode": null,
+      "stopName": "Illinois Medical District",
+      "stopDescription": "",
+      "stopLatitude": "41.875706",
+      "stopLongitude": "-87.673932",
+      "locationType": "0",
+      "parentStation": 40810,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30158,
+      "stopCode": null,
+      "stopName": "Illinois Medical District",
+      "stopDescription": "",
+      "stopLatitude": "41.875706",
+      "stopLongitude": "-87.673932",
+      "locationType": "0",
+      "parentStation": 40810,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40920, stopCode=null, stopName=Pulaski (Blue), stopDescription=, stopLatitude=41.873797, stopLongitude=-87.725663, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30179,
+      "stopCode": null,
+      "stopName": "Pulaski-Forest Park",
+      "stopDescription": "",
+      "stopLatitude": "41.873797",
+      "stopLongitude": "-87.725663",
+      "locationType": "0",
+      "parentStation": 40920,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30180,
+      "stopCode": null,
+      "stopName": "Pulaski-Forest Park",
+      "stopDescription": "",
+      "stopLatitude": "41.873797",
+      "stopLongitude": "-87.725663",
+      "locationType": "0",
+      "parentStation": 40920,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40230, stopCode=null, stopName=Cumberland, stopDescription=, stopLatitude=41.984246, stopLongitude=-87.838028, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30044,
+      "stopCode": null,
+      "stopName": "Cumberland",
+      "stopDescription": "",
+      "stopLatitude": "41.984246",
+      "stopLongitude": "-87.838028",
+      "locationType": "0",
+      "parentStation": 40230,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30045,
+      "stopCode": null,
+      "stopName": "Cumberland",
+      "stopDescription": "",
+      "stopLatitude": "41.984246",
+      "stopLongitude": "-87.838028",
+      "locationType": "0",
+      "parentStation": 40230,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40160, stopCode=null, stopName=LaSalle/Van Buren, stopDescription=, stopLatitude=41.8768, stopLongitude=-87.631739, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30030,
+      "stopCode": null,
+      "stopName": "LaSalle/Van Buren",
+      "stopDescription": "",
+      "stopLatitude": "41.8768",
+      "stopLongitude": "-87.631739",
+      "locationType": "0",
+      "parentStation": 40160,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30031,
+      "stopCode": null,
+      "stopName": "LaSalle/Van Buren",
+      "stopDescription": "",
+      "stopLatitude": "41.8768",
+      "stopLongitude": "-87.631739",
+      "locationType": "0",
+      "parentStation": 40160,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41140, stopCode=null, stopName=King Drive, stopDescription=, stopLatitude=41.78013, stopLongitude=-87.615546, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30217,
+      "stopCode": null,
+      "stopName": "King Drive",
+      "stopDescription": "",
+      "stopLatitude": "41.78013",
+      "stopLongitude": "-87.615546",
+      "locationType": "0",
+      "parentStation": 41140,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30218,
+      "stopCode": null,
+      "stopName": "King Drive",
+      "stopDescription": "",
+      "stopLatitude": "41.78013",
+      "stopLongitude": "-87.615546",
+      "locationType": "0",
+      "parentStation": 41140,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40250, stopCode=null, stopName=Kedzie-Homan, stopDescription=, stopLatitude=41.874341, stopLongitude=-87.70604, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30048,
+      "stopCode": null,
+      "stopName": "Kedzie-Homan",
+      "stopDescription": "",
+      "stopLatitude": "41.874341",
+      "stopLongitude": "-87.70604",
+      "locationType": "0",
+      "parentStation": 40250,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30049,
+      "stopCode": null,
+      "stopName": "Kedzie-Homan",
+      "stopDescription": "",
+      "stopLatitude": "41.874341",
+      "stopLongitude": "-87.70604",
+      "locationType": "0",
+      "parentStation": 40250,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40800, stopCode=null, stopName=Sedgwick (Brown/Purple), stopDescription=, stopLatitude=41.910409, stopLongitude=-87.639302, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30155,
+      "stopCode": null,
+      "stopName": "Sedgwick",
+      "stopDescription": "",
+      "stopLatitude": "41.910409",
+      "stopLongitude": "-87.639302",
+      "locationType": "0",
+      "parentStation": 40800,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30156,
+      "stopCode": null,
+      "stopName": "Sedgwick",
+      "stopDescription": "",
+      "stopLatitude": "41.910409",
+      "stopLongitude": "-87.639302",
+      "locationType": "0",
+      "parentStation": 40800,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40310, stopCode=null, stopName=Western (Orange), stopDescription=, stopLatitude=41.804546, stopLongitude=-87.684019, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30060,
+      "stopCode": null,
+      "stopName": "Western-Orange",
+      "stopDescription": "",
+      "stopLatitude": "41.804546",
+      "stopLongitude": "-87.684019",
+      "locationType": "0",
+      "parentStation": 40310,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30061,
+      "stopCode": null,
+      "stopName": "Western-Orange",
+      "stopDescription": "",
+      "stopLatitude": "41.804546",
+      "stopLongitude": "-87.684019",
+      "locationType": "0",
+      "parentStation": 40310,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40590, stopCode=null, stopName=Damen (Blue), stopDescription=, stopLatitude=41.9098452343, stopLongitude=-87.6775400139, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30115,
+      "stopCode": null,
+      "stopName": "Damen-O'Hare",
+      "stopDescription": "",
+      "stopLatitude": "41.909744",
+      "stopLongitude": "-87.677437",
+      "locationType": "0",
+      "parentStation": 40590,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30116,
+      "stopCode": null,
+      "stopName": "Damen-O'Hare",
+      "stopDescription": "",
+      "stopLatitude": "41.909744",
+      "stopLongitude": "-87.677437",
+      "locationType": "0",
+      "parentStation": 40590,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40010, stopCode=null, stopName=Austin (Blue), stopDescription=, stopLatitude=41.870851, stopLongitude=-87.776812, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30001,
+      "stopCode": null,
+      "stopName": "Austin-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.870851",
+      "stopLongitude": "-87.776812",
+      "locationType": "0",
+      "parentStation": 40010,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30002,
+      "stopCode": null,
+      "stopName": "Austin-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.870851",
+      "stopLongitude": "-87.776812",
+      "locationType": "0",
+      "parentStation": 40010,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41270, stopCode=null, stopName=43rd, stopDescription=, stopLatitude=41.816462, stopLongitude=-87.619021, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30245,
+      "stopCode": null,
+      "stopName": "43rd",
+      "stopDescription": "",
+      "stopLatitude": "41.816462",
+      "stopLongitude": "-87.619021",
+      "locationType": "0",
+      "parentStation": 41270,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30246,
+      "stopCode": null,
+      "stopName": "43rd",
+      "stopDescription": "",
+      "stopLatitude": "41.816462",
+      "stopLongitude": "-87.619021",
+      "locationType": "0",
+      "parentStation": 41270,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40150, stopCode=null, stopName=Pulaski (Pink), stopDescription=, stopLatitude=41.853732, stopLongitude=-87.724311, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30028,
+      "stopCode": null,
+      "stopName": "Pulaski-Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.853732",
+      "stopLongitude": "-87.724311",
+      "locationType": "0",
+      "parentStation": 40150,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30029,
+      "stopCode": null,
+      "stopName": "Pulaski-Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.853732",
+      "stopLongitude": "-87.724311",
+      "locationType": "0",
+      "parentStation": 40150,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41010, stopCode=null, stopName=Rockwell, stopDescription=, stopLatitude=41.966115, stopLongitude=-87.6941, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30195,
+      "stopCode": null,
+      "stopName": "Rockwell",
+      "stopDescription": "",
+      "stopLatitude": "41.966115",
+      "stopLongitude": "-87.6941",
+      "locationType": "0",
+      "parentStation": 41010,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30196,
+      "stopCode": null,
+      "stopName": "Rockwell",
+      "stopDescription": "",
+      "stopLatitude": "41.966115",
+      "stopLongitude": "-87.6941",
+      "locationType": "0",
+      "parentStation": 41010,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41250, stopCode=null, stopName=Central (Purple), stopDescription=, stopLatitude=42.063987, stopLongitude=-87.685617, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30241,
+      "stopCode": null,
+      "stopName": "Central-Purple",
+      "stopDescription": "",
+      "stopLatitude": "42.063987",
+      "stopLongitude": "-87.685617",
+      "locationType": "0",
+      "parentStation": 41250,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30242,
+      "stopCode": null,
+      "stopName": "Central-Purple",
+      "stopDescription": "",
+      "stopLatitude": "42.063987",
+      "stopLongitude": "-87.685617",
+      "locationType": "0",
+      "parentStation": 41250,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40030, stopCode=null, stopName=Pulaski (Green), stopDescription=, stopLatitude=41.885412, stopLongitude=-87.725404, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30005,
+      "stopCode": null,
+      "stopName": "Pulaski-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.885412",
+      "stopLongitude": "-87.725404",
+      "locationType": "0",
+      "parentStation": 40030,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30006,
+      "stopCode": null,
+      "stopName": "Pulaski-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.885412",
+      "stopLongitude": "-87.725404",
+      "locationType": "0",
+      "parentStation": 40030,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40690, stopCode=null, stopName=Dempster, stopDescription=, stopLatitude=42.041655, stopLongitude=-87.681602, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30133,
+      "stopCode": null,
+      "stopName": "Dempster",
+      "stopDescription": "",
+      "stopLatitude": "42.041655",
+      "stopLongitude": "-87.681602",
+      "locationType": "0",
+      "parentStation": 40690,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30134,
+      "stopCode": null,
+      "stopName": "Dempster",
+      "stopDescription": "",
+      "stopLatitude": "42.041655",
+      "stopLongitude": "-87.681602",
+      "locationType": "0",
+      "parentStation": 40690,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41200, stopCode=null, stopName=Argyle, stopDescription=, stopLatitude=41.9733220506, stopLongitude=-87.6585279483, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30229,
+      "stopCode": null,
+      "stopName": "Argyle",
+      "stopDescription": "",
+      "stopLatitude": "41.973453",
+      "stopLongitude": "-87.65853",
+      "locationType": "0",
+      "parentStation": 41200,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30230,
+      "stopCode": null,
+      "stopName": "Argyle",
+      "stopDescription": "",
+      "stopLatitude": "41.973453",
+      "stopLongitude": "-87.65853",
+      "locationType": "0",
+      "parentStation": 41200,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40440, stopCode=null, stopName=California (Pink), stopDescription=, stopLatitude=41.854109, stopLongitude=-87.694774, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30086,
+      "stopCode": null,
+      "stopName": "California-Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.854109",
+      "stopLongitude": "-87.694774",
+      "locationType": "0",
+      "parentStation": 40440,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30087,
+      "stopCode": null,
+      "stopName": "California-Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.854109",
+      "stopLongitude": "-87.694774",
+      "locationType": "0",
+      "parentStation": 40440,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40820, stopCode=null, stopName=Rosemont, stopDescription=, stopLatitude=41.983507, stopLongitude=-87.859388, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30159,
+      "stopCode": null,
+      "stopName": "Rosemont",
+      "stopDescription": "",
+      "stopLatitude": "41.983507",
+      "stopLongitude": "-87.859388",
+      "locationType": "0",
+      "parentStation": 40820,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30160,
+      "stopCode": null,
+      "stopName": "Rosemont",
+      "stopDescription": "",
+      "stopLatitude": "41.983507",
+      "stopLongitude": "-87.859388",
+      "locationType": "0",
+      "parentStation": 40820,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40050, stopCode=null, stopName=Davis, stopDescription=, stopLatitude=42.04771, stopLongitude=-87.683543, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30010,
+      "stopCode": null,
+      "stopName": "Davis",
+      "stopDescription": "",
+      "stopLatitude": "42.04771",
+      "stopLongitude": "-87.683543",
+      "locationType": "0",
+      "parentStation": 40050,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30011,
+      "stopCode": null,
+      "stopName": "Davis",
+      "stopDescription": "",
+      "stopLatitude": "42.04771",
+      "stopLongitude": "-87.683543",
+      "locationType": "0",
+      "parentStation": 40050,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40710, stopCode=null, stopName=Chicago (Brown/Purple), stopDescription=, stopLatitude=41.89681, stopLongitude=-87.635924, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30137,
+      "stopCode": null,
+      "stopName": "Chicago-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.89681",
+      "stopLongitude": "-87.635924",
+      "locationType": "0",
+      "parentStation": 40710,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30138,
+      "stopCode": null,
+      "stopName": "Chicago-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.89681",
+      "stopLongitude": "-87.635924",
+      "locationType": "0",
+      "parentStation": 40710,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41380, stopCode=null, stopName=Bryn Mawr, stopDescription=, stopLatitude=41.983504, stopLongitude=-87.65884, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30267,
+      "stopCode": null,
+      "stopName": "Bryn Mawr",
+      "stopDescription": "",
+      "stopLatitude": "41.983504",
+      "stopLongitude": "-87.65884",
+      "locationType": "0",
+      "parentStation": 41380,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30268,
+      "stopCode": null,
+      "stopName": "Bryn Mawr",
+      "stopDescription": "",
+      "stopLatitude": "41.983504",
+      "stopLongitude": "-87.65884",
+      "locationType": "0",
+      "parentStation": 41380,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40170, stopCode=null, stopName=Ashland (Green/Pink), stopDescription=, stopLatitude=41.885269, stopLongitude=-87.666969, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30032,
+      "stopCode": null,
+      "stopName": "Ashland-Lake",
+      "stopDescription": "",
+      "stopLatitude": "41.885269",
+      "stopLongitude": "-87.666969",
+      "locationType": "0",
+      "parentStation": 40170,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30033,
+      "stopCode": null,
+      "stopName": "Ashland-Lake",
+      "stopDescription": "",
+      "stopLatitude": "41.885269",
+      "stopLongitude": "-87.666969",
+      "locationType": "0",
+      "parentStation": 40170,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40530, stopCode=null, stopName=Diversey (Brown/Purple), stopDescription=, stopLatitude=41.932732, stopLongitude=-87.653131, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30103,
+      "stopCode": null,
+      "stopName": "Diversey",
+      "stopDescription": "",
+      "stopLatitude": "41.932732",
+      "stopLongitude": "-87.653131",
+      "locationType": "0",
+      "parentStation": 40530,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30104,
+      "stopCode": null,
+      "stopName": "Diversey",
+      "stopDescription": "",
+      "stopLatitude": "41.932732",
+      "stopLongitude": "-87.653131",
+      "locationType": "0",
+      "parentStation": 40530,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41090, stopCode=null, stopName=Monroe (Red), stopDescription=, stopLatitude=41.880745, stopLongitude=-87.627696, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30211,
+      "stopCode": null,
+      "stopName": "Monroe-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.880745",
+      "stopLongitude": "-87.627696",
+      "locationType": "0",
+      "parentStation": 41090,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30212,
+      "stopCode": null,
+      "stopName": "Monroe-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.880745",
+      "stopLongitude": "-87.627696",
+      "locationType": "0",
+      "parentStation": 41090,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40300, stopCode=null, stopName=Indiana, stopDescription=, stopLatitude=41.821732, stopLongitude=-87.621371, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30058,
+      "stopCode": null,
+      "stopName": "Indiana",
+      "stopDescription": "",
+      "stopLatitude": "41.821732",
+      "stopLongitude": "-87.621371",
+      "locationType": "0",
+      "parentStation": 40300,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30059,
+      "stopCode": null,
+      "stopName": "Indiana",
+      "stopDescription": "",
+      "stopLatitude": "41.821732",
+      "stopLongitude": "-87.621371",
+      "locationType": "0",
+      "parentStation": 40300,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40720, stopCode=null, stopName=Cottage Grove, stopDescription=, stopLatitude=41.780309, stopLongitude=-87.605857, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30139,
+      "stopCode": null,
+      "stopName": "East 63rd-Cottage Grove",
+      "stopDescription": "",
+      "stopLatitude": "41.780309",
+      "stopLongitude": "-87.605857",
+      "locationType": "0",
+      "parentStation": 40720,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30140,
+      "stopCode": null,
+      "stopName": "East 63rd-Cottage Grove",
+      "stopDescription": "",
+      "stopLatitude": "41.780309",
+      "stopLongitude": "-87.605857",
+      "locationType": "0",
+      "parentStation": 40720,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40750, stopCode=null, stopName=Harlem (Blue - O'Hare Branch), stopDescription=, stopLatitude=41.98227, stopLongitude=-87.8089, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30145,
+      "stopCode": null,
+      "stopName": "Harlem-O'Hare",
+      "stopDescription": "",
+      "stopLatitude": "41.98227",
+      "stopLongitude": "-87.8089",
+      "locationType": "0",
+      "parentStation": 40750,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30146,
+      "stopCode": null,
+      "stopName": "Harlem-O'Hare",
+      "stopDescription": "",
+      "stopLatitude": "41.98227",
+      "stopLongitude": "-87.8089",
+      "locationType": "0",
+      "parentStation": 40750,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40100, stopCode=null, stopName=Morse, stopDescription=, stopLatitude=42.008362, stopLongitude=-87.665909, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30020,
+      "stopCode": null,
+      "stopName": "Morse",
+      "stopDescription": "",
+      "stopLatitude": "42.008362",
+      "stopLongitude": "-87.665909",
+      "locationType": "0",
+      "parentStation": 40100,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30021,
+      "stopCode": null,
+      "stopName": "Morse",
+      "stopDescription": "",
+      "stopLatitude": "42.008362",
+      "stopLongitude": "-87.665909",
+      "locationType": "0",
+      "parentStation": 40100,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40830, stopCode=null, stopName=18th, stopDescription=, stopLatitude=41.857908, stopLongitude=-87.669147, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30161,
+      "stopCode": null,
+      "stopName": "18th",
+      "stopDescription": "",
+      "stopLatitude": "41.857908",
+      "stopLongitude": "-87.669147",
+      "locationType": "0",
+      "parentStation": 40830,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30162,
+      "stopCode": null,
+      "stopName": "18th",
+      "stopDescription": "",
+      "stopLatitude": "41.857908",
+      "stopLongitude": "-87.669147",
+      "locationType": "0",
+      "parentStation": 40830,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40840, stopCode=null, stopName=South Boulevard, stopDescription=, stopLatitude=42.027612, stopLongitude=-87.678329, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30163,
+      "stopCode": null,
+      "stopName": "South Boulevard",
+      "stopDescription": "",
+      "stopLatitude": "42.027612",
+      "stopLongitude": "-87.678329",
+      "locationType": "0",
+      "parentStation": 40840,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30164,
+      "stopCode": null,
+      "stopName": "South Boulevard",
+      "stopDescription": "",
+      "stopLatitude": "42.027612",
+      "stopLongitude": "-87.678329",
+      "locationType": "0",
+      "parentStation": 40840,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41430, stopCode=null, stopName=87th, stopDescription=, stopLatitude=41.735372, stopLongitude=-87.624717, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30275,
+      "stopCode": null,
+      "stopName": "87th",
+      "stopDescription": "",
+      "stopLatitude": "41.735372",
+      "stopLongitude": "-87.624717",
+      "locationType": "0",
+      "parentStation": 41430,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30276,
+      "stopCode": null,
+      "stopName": "87th",
+      "stopDescription": "",
+      "stopLatitude": "41.735372",
+      "stopLongitude": "-87.624717",
+      "locationType": "0",
+      "parentStation": 41430,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40040, stopCode=null, stopName=Quincy, stopDescription=, stopLatitude=41.878723, stopLongitude=-87.63374, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30007,
+      "stopCode": null,
+      "stopName": "Quincy",
+      "stopDescription": "",
+      "stopLatitude": "41.878723",
+      "stopLongitude": "-87.63374",
+      "locationType": "0",
+      "parentStation": 40040,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30008,
+      "stopCode": null,
+      "stopName": "Quincy",
+      "stopDescription": "",
+      "stopLatitude": "41.878723",
+      "stopLongitude": "-87.63374",
+      "locationType": "0",
+      "parentStation": 40040,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40260, stopCode=null, stopName=State/Lake (Loop 'L'), stopDescription=, stopLatitude=41.88574, stopLongitude=-87.627835, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30050,
+      "stopCode": null,
+      "stopName": "State/Lake",
+      "stopDescription": "",
+      "stopLatitude": "41.88574",
+      "stopLongitude": "-87.627835",
+      "locationType": "0",
+      "parentStation": 40260,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30051,
+      "stopCode": null,
+      "stopName": "State/Lake",
+      "stopDescription": "",
+      "stopLatitude": "41.88574",
+      "stopLongitude": "-87.627835",
+      "locationType": "0",
+      "parentStation": 40260,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41230, stopCode=null, stopName=47th (Red), stopDescription=, stopLatitude=41.810318, stopLongitude=-87.63094, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30237,
+      "stopCode": null,
+      "stopName": "47th-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.810318",
+      "stopLongitude": "-87.63094",
+      "locationType": "0",
+      "parentStation": 41230,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30238,
+      "stopCode": null,
+      "stopName": "47th-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.810318",
+      "stopLongitude": "-87.63094",
+      "locationType": "0",
+      "parentStation": 41230,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40960, stopCode=null, stopName=Pulaski (Orange), stopDescription=, stopLatitude=41.799756, stopLongitude=-87.724493, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30185,
+      "stopCode": null,
+      "stopName": "Pulaski-Orange",
+      "stopDescription": "",
+      "stopLatitude": "41.799756",
+      "stopLongitude": "-87.724493",
+      "locationType": "0",
+      "parentStation": 40960,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30186,
+      "stopCode": null,
+      "stopName": "Pulaski-Orange",
+      "stopDescription": "",
+      "stopLatitude": "41.799756",
+      "stopLongitude": "-87.724493",
+      "locationType": "0",
+      "parentStation": 40960,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40020, stopCode=null, stopName=Harlem/Lake, stopDescription=, stopLatitude=41.886848, stopLongitude=-87.803176, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30003,
+      "stopCode": null,
+      "stopName": "Harlem-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.886848",
+      "stopLongitude": "-87.803176",
+      "locationType": "0",
+      "parentStation": 40020,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30004,
+      "stopCode": null,
+      "stopName": "Harlem-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.886848",
+      "stopLongitude": "-87.803176",
+      "locationType": "0",
+      "parentStation": 40020,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40120, stopCode=null, stopName=35th/Archer, stopDescription=, stopLatitude=41.829353, stopLongitude=-87.680622, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30022,
+      "stopCode": null,
+      "stopName": "35th/Archer",
+      "stopDescription": "",
+      "stopLatitude": "41.829353",
+      "stopLongitude": "-87.680622",
+      "locationType": "0",
+      "parentStation": 40120,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30023,
+      "stopCode": null,
+      "stopName": "35th/Archer",
+      "stopDescription": "",
+      "stopLatitude": "41.829353",
+      "stopLongitude": "-87.680622",
+      "locationType": "0",
+      "parentStation": 40120,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40910, stopCode=null, stopName=63rd, stopDescription=, stopLatitude=41.780536, stopLongitude=-87.630952, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30177,
+      "stopCode": null,
+      "stopName": "63rd",
+      "stopDescription": "",
+      "stopLatitude": "41.780536",
+      "stopLongitude": "-87.630952",
+      "locationType": "0",
+      "parentStation": 40910,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30178,
+      "stopCode": null,
+      "stopName": "63rd",
+      "stopDescription": "",
+      "stopLatitude": "41.780536",
+      "stopLongitude": "-87.630952",
+      "locationType": "0",
+      "parentStation": 40910,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=41330, stopCode=null, stopName=Montrose (Blue), stopDescription=, stopLatitude=41.9609010454, stopLongitude=-87.7429034362, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30259,
+      "stopCode": null,
+      "stopName": "Montrose-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.961539",
+      "stopLongitude": "-87.743574",
+      "locationType": "0",
+      "parentStation": 41330,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30260,
+      "stopCode": null,
+      "stopName": "Montrose-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.961539",
+      "stopLongitude": "-87.743574",
+      "locationType": "0",
+      "parentStation": 41330,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40900, stopCode=null, stopName=Howard, stopDescription=, stopLatitude=42.019063, stopLongitude=-87.672892, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30173,
+      "stopCode": null,
+      "stopName": "Howard",
+      "stopDescription": "",
+      "stopLatitude": "42.019063",
+      "stopLongitude": "-87.672892",
+      "locationType": "0",
+      "parentStation": 40900,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30174,
+      "stopCode": null,
+      "stopName": "Howard",
+      "stopDescription": "",
+      "stopLatitude": "42.019063",
+      "stopLongitude": "-87.672892",
+      "locationType": "0",
+      "parentStation": 40900,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30175,
+      "stopCode": null,
+      "stopName": "Howard",
+      "stopDescription": "",
+      "stopLatitude": "42.019063",
+      "stopLongitude": "-87.672892",
+      "locationType": "0",
+      "parentStation": 40900,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30176,
+      "stopCode": null,
+      "stopName": "Howard",
+      "stopDescription": "",
+      "stopLatitude": "42.019063",
+      "stopLongitude": "-87.672892",
+      "locationType": "0",
+      "parentStation": 40900,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41450, stopCode=null, stopName=Chicago (Red), stopDescription=, stopLatitude=41.896671, stopLongitude=-87.628176, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30279,
+      "stopCode": null,
+      "stopName": "Chicago-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.896671",
+      "stopLongitude": "-87.628176",
+      "locationType": "0",
+      "parentStation": 41450,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30280,
+      "stopCode": null,
+      "stopName": "Chicago-Red",
+      "stopDescription": "",
+      "stopLatitude": "41.896671",
+      "stopLongitude": "-87.628176",
+      "locationType": "0",
+      "parentStation": 41450,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41480, stopCode=null, stopName=Western (Brown), stopDescription=, stopLatitude=41.966163, stopLongitude=-87.688502, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30283,
+      "stopCode": null,
+      "stopName": "Western-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.966163",
+      "stopLongitude": "-87.688502",
+      "locationType": "0",
+      "parentStation": 41480,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30284,
+      "stopCode": null,
+      "stopName": "Western-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.966163",
+      "stopLongitude": "-87.688502",
+      "locationType": "0",
+      "parentStation": 41480,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40370, stopCode=null, stopName=Washington, stopDescription=, stopLatitude=41.883164, stopLongitude=-87.62944, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30072,
+      "stopCode": null,
+      "stopName": "Washington-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.883164",
+      "stopLongitude": "-87.62944",
+      "locationType": "0",
+      "parentStation": 40370,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30073,
+      "stopCode": null,
+      "stopName": "Washington-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.883164",
+      "stopLongitude": "-87.62944",
+      "locationType": "0",
+      "parentStation": 40370,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40210, stopCode=null, stopName=Damen (Pink), stopDescription=, stopLatitude=41.854517, stopLongitude=-87.675975, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30040,
+      "stopCode": null,
+      "stopName": "Damen-Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.854517",
+      "stopLongitude": "-87.675975",
+      "locationType": "0",
+      "parentStation": 40210,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30041,
+      "stopCode": null,
+      "stopName": "Damen-Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.854517",
+      "stopLongitude": "-87.675975",
+      "locationType": "0",
+      "parentStation": 40210,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40790, stopCode=null, stopName=Monroe (Blue), stopDescription=, stopLatitude=41.880703, stopLongitude=-87.629378, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30153,
+      "stopCode": null,
+      "stopName": "Monroe-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.880703",
+      "stopLongitude": "-87.629378",
+      "locationType": "0",
+      "parentStation": 40790,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30154,
+      "stopCode": null,
+      "stopName": "Monroe-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.880703",
+      "stopLongitude": "-87.629378",
+      "locationType": "0",
+      "parentStation": 40790,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40890, stopCode=null, stopName=O'Hare, stopDescription=, stopLatitude=41.97766526, stopLongitude=-87.90422307, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30171,
+      "stopCode": null,
+      "stopName": "O'Hare",
+      "stopDescription": "",
+      "stopLatitude": "41.97766526",
+      "stopLongitude": "-87.90422307",
+      "locationType": "0",
+      "parentStation": 40890,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30172,
+      "stopCode": null,
+      "stopName": "O'Hare",
+      "stopDescription": "",
+      "stopLatitude": "41.97766526",
+      "stopLongitude": "-87.90422307",
+      "locationType": "0",
+      "parentStation": 40890,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41070, stopCode=null, stopName=Kedzie (Green), stopDescription=, stopLatitude=41.884321, stopLongitude=-87.706155, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30207,
+      "stopCode": null,
+      "stopName": "Kedzie-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.884321",
+      "stopLongitude": "-87.706155",
+      "locationType": "0",
+      "parentStation": 41070,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30208,
+      "stopCode": null,
+      "stopName": "Kedzie-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.884321",
+      "stopLongitude": "-87.706155",
+      "locationType": "0",
+      "parentStation": 41070,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41360, stopCode=null, stopName=California (Green), stopDescription=, stopLatitude=41.88422, stopLongitude=-87.696234, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30265,
+      "stopCode": null,
+      "stopName": "California-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.88422",
+      "stopLongitude": "-87.696234",
+      "locationType": "0",
+      "parentStation": 41360,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30266,
+      "stopCode": null,
+      "stopName": "California-Green",
+      "stopDescription": "",
+      "stopLatitude": "41.88422",
+      "stopLongitude": "-87.696234",
+      "locationType": "0",
+      "parentStation": 41360,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41690, stopCode=null, stopName=Cermak-McCormick Place, stopDescription=, stopLatitude=41.853115, stopLongitude=-87.626402, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30381,
+      "stopCode": null,
+      "stopName": "Cermak-McCormick Place",
+      "stopDescription": "",
+      "stopLatitude": "41.853115",
+      "stopLongitude": "-87.626402",
+      "locationType": "0",
+      "parentStation": 41690,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30382,
+      "stopCode": null,
+      "stopName": "Cermak-McCormick Place",
+      "stopDescription": "",
+      "stopLatitude": "41.853115",
+      "stopLongitude": "-87.626402",
+      "locationType": "0",
+      "parentStation": 41690,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41150, stopCode=null, stopName=Kedzie (Orange), stopDescription=, stopLatitude=41.804236, stopLongitude=-87.704406, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30219,
+      "stopCode": null,
+      "stopName": "Kedzie-Orange",
+      "stopDescription": "",
+      "stopLatitude": "41.804236",
+      "stopLongitude": "-87.704406",
+      "locationType": "0",
+      "parentStation": 41150,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30220,
+      "stopCode": null,
+      "stopName": "Kedzie-Orange",
+      "stopDescription": "",
+      "stopLatitude": "41.804236",
+      "stopLongitude": "-87.704406",
+      "locationType": "0",
+      "parentStation": 41150,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41190, stopCode=null, stopName=Jarvis, stopDescription=, stopLatitude=42.0160204165, stopLongitude=-87.6692571266, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30227,
+      "stopCode": null,
+      "stopName": "Jarvis",
+      "stopDescription": "",
+      "stopLatitude": "42.015876",
+      "stopLongitude": "-87.669092",
+      "locationType": "0",
+      "parentStation": 41190,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30228,
+      "stopCode": null,
+      "stopName": "Jarvis",
+      "stopDescription": "",
+      "stopLatitude": "42.015876",
+      "stopLongitude": "-87.669092",
+      "locationType": "0",
+      "parentStation": 41190,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40350, stopCode=null, stopName=UIC-Halsted, stopDescription=, stopLatitude=41.875474, stopLongitude=-87.649707, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30068,
+      "stopCode": null,
+      "stopName": "UIC-Halsted",
+      "stopDescription": "",
+      "stopLatitude": "41.875474",
+      "stopLongitude": "-87.649707",
+      "locationType": "0",
+      "parentStation": 40350,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30069,
+      "stopCode": null,
+      "stopName": "UIC-Halsted",
+      "stopDescription": "",
+      "stopLatitude": "41.875474",
+      "stopLongitude": "-87.649707",
+      "locationType": "0",
+      "parentStation": 40350,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40610, stopCode=null, stopName=Ridgeland, stopDescription=, stopLatitude=41.887159, stopLongitude=-87.783661, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30119,
+      "stopCode": null,
+      "stopName": "Ridgeland",
+      "stopDescription": "",
+      "stopLatitude": "41.887159",
+      "stopLongitude": "-87.783661",
+      "locationType": "0",
+      "parentStation": 40610,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30120,
+      "stopCode": null,
+      "stopName": "Ridgeland",
+      "stopDescription": "",
+      "stopLatitude": "41.887159",
+      "stopLongitude": "-87.783661",
+      "locationType": "0",
+      "parentStation": 40610,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40550, stopCode=null, stopName=Irving Park (Blue), stopDescription=, stopLatitude=41.952925, stopLongitude=-87.729229, locationType=1, parentStation=null, wheelchairBoarding=0)": [
+    {
+      "stopId": 30107,
+      "stopCode": null,
+      "stopName": "Irving Park-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.952925",
+      "stopLongitude": "-87.729229",
+      "locationType": "0",
+      "parentStation": 40550,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30108,
+      "stopCode": null,
+      "stopName": "Irving Park-Blue",
+      "stopDescription": "",
+      "stopLatitude": "41.952925",
+      "stopLongitude": "-87.729229",
+      "locationType": "0",
+      "parentStation": 40550,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40850, stopCode=null, stopName=Harold Washington Library-State/Van Buren, stopDescription=, stopLatitude=41.876862, stopLongitude=-87.628196, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30165,
+      "stopCode": null,
+      "stopName": "Harold Washington Library",
+      "stopDescription": "",
+      "stopLatitude": "41.876862",
+      "stopLongitude": "-87.628196",
+      "locationType": "0",
+      "parentStation": 40850,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30166,
+      "stopCode": null,
+      "stopName": "Harold Washington Library",
+      "stopDescription": "",
+      "stopLatitude": "41.876862",
+      "stopLongitude": "-87.628196",
+      "locationType": "0",
+      "parentStation": 40850,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41660, stopCode=null, stopName=Lake (Subway), stopDescription=, stopLatitude=41.884809, stopLongitude=-87.627813, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30289,
+      "stopCode": null,
+      "stopName": "Lake",
+      "stopDescription": "",
+      "stopLatitude": "41.884809",
+      "stopLongitude": "-87.627813",
+      "locationType": "0",
+      "parentStation": 41660,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30290,
+      "stopCode": null,
+      "stopName": "Lake",
+      "stopDescription": "",
+      "stopLatitude": "41.884809",
+      "stopLongitude": "-87.627813",
+      "locationType": "0",
+      "parentStation": 41660,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41000, stopCode=null, stopName=Cermak-Chinatown, stopDescription=, stopLatitude=41.853206, stopLongitude=-87.630968, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30193,
+      "stopCode": null,
+      "stopName": "Cermak-Chinatown",
+      "stopDescription": "",
+      "stopLatitude": "41.853206",
+      "stopLongitude": "-87.630968",
+      "locationType": "0",
+      "parentStation": 41000,
+      "wheelchairBoarding": 0
+    },
+    {
+      "stopId": 30194,
+      "stopCode": null,
+      "stopName": "Cermak-Chinatown",
+      "stopDescription": "",
+      "stopLatitude": "41.853206",
+      "stopLongitude": "-87.630968",
+      "locationType": "0",
+      "parentStation": 41000,
+      "wheelchairBoarding": 0
+    }
+  ],
+  "Stops(stopId=40740, stopCode=null, stopName=Western (Pink), stopDescription=, stopLatitude=41.854225, stopLongitude=-87.685129, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30143,
+      "stopCode": null,
+      "stopName": "Western-Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.854225",
+      "stopLongitude": "-87.685129",
+      "locationType": "0",
+      "parentStation": 40740,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30144,
+      "stopCode": null,
+      "stopName": "Western-Cermak",
+      "stopDescription": "",
+      "stopLatitude": "41.854225",
+      "stopLongitude": "-87.685129",
+      "locationType": "0",
+      "parentStation": 40740,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41310, stopCode=null, stopName=Paulina, stopDescription=, stopLatitude=41.943623, stopLongitude=-87.670907, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30253,
+      "stopCode": null,
+      "stopName": "Paulina",
+      "stopDescription": "",
+      "stopLatitude": "41.943623",
+      "stopLongitude": "-87.670907",
+      "locationType": "0",
+      "parentStation": 41310,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30254,
+      "stopCode": null,
+      "stopName": "Paulina",
+      "stopDescription": "",
+      "stopLatitude": "41.943623",
+      "stopLongitude": "-87.670907",
+      "locationType": "0",
+      "parentStation": 41310,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40140, stopCode=null, stopName=Dempster-Skokie, stopDescription=, stopLatitude=42.038951, stopLongitude=-87.751919, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30026,
+      "stopCode": null,
+      "stopName": "Dempster-Skokie",
+      "stopDescription": "",
+      "stopLatitude": "42.038951",
+      "stopLongitude": "-87.751919",
+      "locationType": "0",
+      "parentStation": 40140,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30027,
+      "stopCode": null,
+      "stopName": "Dempster-Skokie",
+      "stopDescription": "",
+      "stopLatitude": "42.038951",
+      "stopLongitude": "-87.751919",
+      "locationType": "0",
+      "parentStation": 40140,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40190, stopCode=null, stopName=Sox-35th, stopDescription=, stopLatitude=41.831191, stopLongitude=-87.630636, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30036,
+      "stopCode": null,
+      "stopName": "Sox-35th",
+      "stopDescription": "",
+      "stopLatitude": "41.831191",
+      "stopLongitude": "-87.630636",
+      "locationType": "0",
+      "parentStation": 40190,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30037,
+      "stopCode": null,
+      "stopName": "Sox-35th",
+      "stopDescription": "",
+      "stopLatitude": "41.831191",
+      "stopLongitude": "-87.630636",
+      "locationType": "0",
+      "parentStation": 40190,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=40090, stopCode=null, stopName=Damen (Brown), stopDescription=, stopLatitude=41.966286, stopLongitude=-87.678639, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30018,
+      "stopCode": null,
+      "stopName": "Damen-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.966286",
+      "stopLongitude": "-87.678639",
+      "locationType": "0",
+      "parentStation": 40090,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30019,
+      "stopCode": null,
+      "stopName": "Damen-Brown",
+      "stopDescription": "",
+      "stopLatitude": "41.966286",
+      "stopLongitude": "-87.678639",
+      "locationType": "0",
+      "parentStation": 40090,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41020, stopCode=null, stopName=Logan Square, stopDescription=, stopLatitude=41.9295342259, stopLongitude=-87.7076881549, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30197,
+      "stopCode": null,
+      "stopName": "Logan Square",
+      "stopDescription": "",
+      "stopLatitude": "41.929728",
+      "stopLongitude": "-87.708541",
+      "locationType": "0",
+      "parentStation": 41020,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30198,
+      "stopCode": null,
+      "stopName": "Logan Square",
+      "stopDescription": "",
+      "stopLatitude": "41.929728",
+      "stopLongitude": "-87.708541",
+      "locationType": "0",
+      "parentStation": 41020,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41510, stopCode=null, stopName=Morgan (Green/Pink), stopDescription=, stopLatitude=41.88557676, stopLongitude=-87.65212993, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30295,
+      "stopCode": null,
+      "stopName": "Morgan",
+      "stopDescription": "",
+      "stopLatitude": "41.88557676",
+      "stopLongitude": "-87.65212993",
+      "locationType": "0",
+      "parentStation": 41510,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30296,
+      "stopCode": null,
+      "stopName": "Morgan",
+      "stopDescription": "",
+      "stopLatitude": "41.88557676",
+      "stopLongitude": "-87.65212993",
+      "locationType": "0",
+      "parentStation": 41510,
+      "wheelchairBoarding": 1
+    }
+  ],
+  "Stops(stopId=41400, stopCode=null, stopName=Roosevelt, stopDescription=, stopLatitude=41.8673785311, stopLongitude=-87.6270314058, locationType=1, parentStation=null, wheelchairBoarding=1)": [
+    {
+      "stopId": 30080,
+      "stopCode": null,
+      "stopName": "Roosevelt (Elevated)",
+      "stopDescription": "",
+      "stopLatitude": "41.867405",
+      "stopLongitude": "-87.62659",
+      "locationType": "0",
+      "parentStation": 41400,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30081,
+      "stopCode": null,
+      "stopName": "Roosevelt (Elevated)",
+      "stopDescription": "",
+      "stopLatitude": "41.867405",
+      "stopLongitude": "-87.62659",
+      "locationType": "0",
+      "parentStation": 41400,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30269,
+      "stopCode": null,
+      "stopName": "Roosevelt (Subway)",
+      "stopDescription": "",
+      "stopLatitude": "41.867368",
+      "stopLongitude": "-87.627402",
+      "locationType": "0",
+      "parentStation": 41400,
+      "wheelchairBoarding": 1
+    },
+    {
+      "stopId": 30270,
+      "stopCode": null,
+      "stopName": "Roosevelt (Subway)",
+      "stopDescription": "",
+      "stopLatitude": "41.867368",
+      "stopLongitude": "-87.627402",
+      "locationType": "0",
+      "parentStation": 41400,
+      "wheelchairBoarding": 1
+    }
+  ]
+}

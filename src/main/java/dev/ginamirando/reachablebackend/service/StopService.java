@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface StopService {
 
-    List<Route> getRoutes();
+    Object getRoutes();
     List<Arrival> getArrival(int parentId);
 }
 

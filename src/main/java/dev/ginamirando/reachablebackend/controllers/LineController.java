@@ -12,10 +12,13 @@ import java.util.List;
 public class LineController {
 
     @GetMapping(value = "lines")
-    private final List<String> getLines() { return Line.displayableColors();}
+    public final List<String> getLines() {
+        System.out.println(Line.displayableColors() + "line controller");
+        return Line.displayableColors();
+        }
 
     @GetMapping(value = "routes")
-    private final List<String> getRoutes() { return Line.uriValues();}
+    public final List<String> getRoutes() { return Line.uriValues();}
 
 
 }
