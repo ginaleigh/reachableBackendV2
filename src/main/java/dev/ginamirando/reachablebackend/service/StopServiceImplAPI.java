@@ -6,8 +6,6 @@ import dev.ginamirando.reachablebackend.models.CtaResponse;
 import dev.ginamirando.reachablebackend.models.Ctatt;
 import dev.ginamirando.reachablebackend.models.LStops;
 import org.springframework.context.annotation.Primary;
-import org.springframework.core.ParameterizedTypeReference;
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -28,6 +26,10 @@ public class StopServiceImplAPI implements StopService {
     @Override
     public List<LStops> getRoutes() {
         return StopDataService.allBlueStops();
+    }
+    @Override
+    public List<StopsDTO> getAllStops() {
+        return StopDataService.getAllStops();
     }
 
     @Override

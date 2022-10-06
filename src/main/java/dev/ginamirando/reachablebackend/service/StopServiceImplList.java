@@ -2,7 +2,8 @@ package dev.ginamirando.reachablebackend.service;
 
 
 import dev.ginamirando.reachablebackend.models.Arrival;
-import dev.ginamirando.reachablebackend.models.LStops;
+import dev.ginamirando.reachablebackend.models.StopsDTO;
+import dev.ginamirando.reachablebackend.models.Line;
 import dev.ginamirando.reachablebackend.models.Stop;
 
 import java.util.ArrayList;
@@ -22,7 +23,7 @@ public class StopServiceImplList implements StopService {
 
     }
     @Override
-    public List<LStops> getRoutes() {
+    public List<StopsDTO> getRoutes(final Line line) {
         return null;
     }
 

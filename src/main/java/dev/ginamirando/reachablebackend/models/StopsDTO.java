@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 @Data
-public class LStops {
+public class StopsDTO {
     @JsonProperty("stop_id")
     private Integer stopId;
 

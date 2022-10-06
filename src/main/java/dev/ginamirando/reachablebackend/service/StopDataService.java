@@ -1,18 +1,20 @@
 package dev.ginamirando.reachablebackend.service;
 
-import dev.ginamirando.reachablebackend.models.LStops;
+import dev.ginamirando.reachablebackend.models.StopsDTO;
+import dev.ginamirando.reachablebackend.models.Line;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.MediaType;
+import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
+@Component
 public class StopDataService {
 
-    private final static List<LStops> allStops;
+    private final static List<StopsDTO> allStops;
 
     static {
         // TODO: Externalize these values
@@ -29,13 +31,16 @@ public class StopDataService {
                 .uri(uri)
                 .accept(MediaType.APPLICATION_JSON)
                 .retrieve()
-                .bodyToMono(new ParameterizedTypeReference<List<LStops>>() {})
+                .bodyToMono(new ParameterizedTypeReference<List<StopsDTO>>() {})
                 .block();
     }
 
-
-    public static List<LStops> allRedStops() {
-        final List<LStops> reds = new ArrayList<>();
+    public static List<StopsDTO> getAllStops() {
+        return new ArrayList<>(allStops);
+    }
+    
+    public static List<StopsDTO> allRedStops() {
+        final List<StopsDTO> reds = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.getRedLine()) {
                 reds.add(stop);
@@ -45,8 +50,8 @@ public class StopDataService {
         return reds;
     }
 
-    public static List<LStops> allBlueStops() {
-        final List<LStops> blues = new ArrayList<>();
+    public static List<StopsDTO> allBlueStops() {
+        final List<StopsDTO> blues = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.getBlueLine()) {
                 blues.add(stop);
@@ -56,8 +61,8 @@ public class StopDataService {
         return blues;
     }
 
-    public static List<LStops> allGreenStops() {
-        final List<LStops> greens = new ArrayList<>();
+    public static List<StopsDTO> allGreenStops() {
+        final List<StopsDTO> greens = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.getGreenLine()) {
                 greens.add(stop);
@@ -67,8 +72,8 @@ public class StopDataService {
         return greens;
     }
 
-    public static List<LStops> allBrownStops() {
-        final List<LStops> browns = new ArrayList<>();
+    public static List<StopsDTO> allBrownStops() {
+        final List<StopsDTO> browns = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.getBrownLine()) {
                 browns.add(stop);
@@ -78,8 +83,8 @@ public class StopDataService {
         return browns;
     }
 
-    public static List<LStops> allPurpleStops() {
-        final List<LStops> purples = new ArrayList<>();
+    public static List<StopsDTO> allPurpleStops() {
+        final List<StopsDTO> purples = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.getPurpleLine()) {
                 purples.add(stop);
@@ -89,8 +94,8 @@ public class StopDataService {
         return purples;
     }
 
-    public static List<LStops> allPurpleExpressStops() {
-        final List<LStops> purpleExpressStops = new ArrayList<>();
+    public static List<StopsDTO> allPurpleExpressStops() {
+        final List<StopsDTO> purpleExpressStops = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.getWhatTheFilthIsThisHaha()) {
                 purpleExpressStops.add(stop);
@@ -100,8 +105,8 @@ public class StopDataService {
         return purpleExpressStops;
     }
 
-    public static List<LStops> allYellowStops() {
-        final List<LStops> yellows = new ArrayList<>();
+    public static List<StopsDTO> allYellowStops() {
+        final List<StopsDTO> yellows = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.getYellowLine()) {
                 yellows.add(stop);
@@ -111,8 +116,8 @@ public class StopDataService {
         return yellows;
     }
 
-    public static List<LStops> allPinkStops() {
-        final List<LStops> pinks = new ArrayList<>();
+    public static List<StopsDTO> allPinkStops() {
+        final List<StopsDTO> pinks = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.getPinkLine()) {
                 pinks.add(stop);
@@ -122,8 +127,8 @@ public class StopDataService {
         return pinks;
     }
 
-    public static List<LStops> allOrangeStops() {
-        final List<LStops> oranges = new ArrayList<>();
+    public static List<StopsDTO> allOrangeStops() {
+        final List<StopsDTO> oranges = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.getOrangeLine()) {
                 oranges.add(stop);
@@ -131,6 +136,21 @@ public class StopDataService {
         });
 
         return oranges;
+    }
+
+    public static Map<Line, List<StopsDTO>> lineToStops() {
+        Map<Line, List<StopsDTO>> theStops = new EnumMap<>(Line.class);
+        theStops.put(Line.RED, allRedStops());
+        theStops.put(Line.BLUE, allBlueStops());
+        theStops.put(Line.GREEN, allGreenStops());
+        theStops.put(Line.BROWN, allBrownStops());
+        theStops.put(Line.PURPLE, allPurpleStops());
+        theStops.put(Line.PURPLEEXPRESS, allPurpleExpressStops());
+        theStops.put(Line.YELLOW, allYellowStops());
+        theStops.put(Line.PINK, allPinkStops());
+        theStops.put(Line.ORANGE, allOrangeStops());
+
+        return theStops;
     }
 
 }
