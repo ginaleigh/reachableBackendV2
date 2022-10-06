@@ -3,6 +3,7 @@ package dev.ginamirando.reachablebackend.service;
 import dev.ginamirando.reachablebackend.models.LStops;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.MediaType;
+import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.util.UriComponentsBuilder;
 
@@ -10,9 +11,13 @@ import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StopDataService {
+@Component
+public class StopServiceUtil {
 
-    private final static List<LStops> allStops;
+    // Created to avoid instantiation
+    private StopServiceUtil() {}
+
+    private static final List<LStops> allStops;
 
     static {
         // TODO: Externalize these values
@@ -23,7 +28,6 @@ public class StopDataService {
                 .build()
                 .toUri();
         // TODO: Remove this SOUT
-        System.out.println(uri);
         WebClient client = WebClient.create();
         allStops = client.get()
                 .uri(uri)
@@ -37,7 +41,7 @@ public class StopDataService {
     public static List<LStops> allRedStops() {
         final List<LStops> reds = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.getRedLine()) {
+            if (stop.redLine()) {
                 reds.add(stop);
             }
         });
@@ -48,7 +52,7 @@ public class StopDataService {
     public static List<LStops> allBlueStops() {
         final List<LStops> blues = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.getBlueLine()) {
+            if (stop.blueLine()) {
                 blues.add(stop);
             }
         });
@@ -59,7 +63,7 @@ public class StopDataService {
     public static List<LStops> allGreenStops() {
         final List<LStops> greens = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.getGreenLine()) {
+            if (stop.greenLine()) {
                 greens.add(stop);
             }
         });
@@ -70,7 +74,7 @@ public class StopDataService {
     public static List<LStops> allBrownStops() {
         final List<LStops> browns = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.getBrownLine()) {
+            if (stop.brownLine()) {
                 browns.add(stop);
             }
         });
@@ -81,7 +85,7 @@ public class StopDataService {
     public static List<LStops> allPurpleStops() {
         final List<LStops> purples = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.getPurpleLine()) {
+            if (stop.purpleLine()) {
                 purples.add(stop);
             }
         });
@@ -92,7 +96,7 @@ public class StopDataService {
     public static List<LStops> allPurpleExpressStops() {
         final List<LStops> purpleExpressStops = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.getWhatTheFilthIsThisHaha()) {
+            if (stop.whatTheFilthIsThisHaha()) {
                 purpleExpressStops.add(stop);
             }
         });
@@ -103,7 +107,7 @@ public class StopDataService {
     public static List<LStops> allYellowStops() {
         final List<LStops> yellows = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.getYellowLine()) {
+            if (stop.yellowLine()) {
                 yellows.add(stop);
             }
         });
@@ -114,7 +118,7 @@ public class StopDataService {
     public static List<LStops> allPinkStops() {
         final List<LStops> pinks = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.getPinkLine()) {
+            if (stop.pinkLine()) {
                 pinks.add(stop);
             }
         });
@@ -125,7 +129,7 @@ public class StopDataService {
     public static List<LStops> allOrangeStops() {
         final List<LStops> oranges = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.getOrangeLine()) {
+            if (stop.orangeLine()) {
                 oranges.add(stop);
             }
         });
