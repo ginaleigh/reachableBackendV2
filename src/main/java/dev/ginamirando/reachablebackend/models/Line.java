@@ -1,6 +1,6 @@
 package dev.ginamirando.reachablebackend.models;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public enum Line {
@@ -22,28 +22,21 @@ public enum Line {
         this.ctaValue = ctaValue;
     }
 
-    public String getDisplayValue() {
+    private String getDisplayValue() {
         return displayValue;
     }
+    private String getCtaValue() { return ctaValue; }
 
     public static List<String> displayableColors() {
-        List<String> lines = new ArrayList<>();
-        for (Line l : Line.values()) {
-            lines.add(l.displayValue);
-        }
-        return lines;
+        return Arrays.stream(Line.values())
+                .map(Line::getDisplayValue)
+                .toList();
     }
 
     public static List<String> uriValues() {
-        List<String> lines2 = new ArrayList<>();
-        for (Line l : Line.values()) {
-            lines2.add(l.ctaValue);
-        }
-        return lines2;
+        return Arrays.stream(Line.values())
+                .map(Line::getCtaValue)
+                .toList();
+
     }
-
-
-
 }
-
-// @JsonValue to serialize enum via its name

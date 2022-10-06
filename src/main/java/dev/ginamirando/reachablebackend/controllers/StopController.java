@@ -4,6 +4,7 @@ import dev.ginamirando.reachablebackend.models.Arrival;
 import dev.ginamirando.reachablebackend.models.Line;
 import dev.ginamirando.reachablebackend.models.StopsDTO;
 import dev.ginamirando.reachablebackend.service.StopService;
+import java.util.Collections;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,9 +20,10 @@ public class StopController {
 
     private final StopService service;
 
-    private StopController(@Autowired StopService service) {
+    public StopController(@Autowired StopService service) {
         this.service = service;
     }
+
 
     @GetMapping(value = "/stops/{line}")
     public List<StopsDTO> getRoutes(@PathVariable final Line line) {
@@ -38,7 +40,7 @@ public class StopController {
         if (parentId != null && parentId > 30_000) {
             return service.getArrival(parentId);
         }
-        return null;
+        return Collections.emptyList();
     }
 
 }
