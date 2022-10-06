@@ -32,5 +32,8 @@ public class StopServiceImplList implements StopService {
         return null;
     }
 
+    @Override
+    public List<StopsDTO> getAllStops() {return null;}
+
 }
 

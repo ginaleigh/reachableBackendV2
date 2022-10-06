@@ -1,10 +1,7 @@
 package dev.ginamirando.reachablebackend.service;
 
 import dev.ginamirando.reachablebackend.configuration.StopConfiguration;
-import dev.ginamirando.reachablebackend.models.Arrival;
-import dev.ginamirando.reachablebackend.models.CtaResponse;
-import dev.ginamirando.reachablebackend.models.Ctatt;
-import dev.ginamirando.reachablebackend.models.LStops;
+import dev.ginamirando.reachablebackend.models.*;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -23,9 +20,12 @@ public class StopServiceImplAPI implements StopService {
         this.config = config;
     }
 
+
+    // OK lets start the app, then wait hang on...see ya in Stop
     @Override
-    public List<LStops> getRoutes() {
-        return StopDataService.allBlueStops();
+    public List<StopsDTO> getRoutes(final Line line) {
+        System.out.println(line);
+        return StopDataService.lineToStops().get(line);
     }
     @Override
     public List<StopsDTO> getAllStops() {
