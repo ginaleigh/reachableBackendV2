@@ -13,12 +13,13 @@ public class LineController {
 
     @GetMapping(value = "lines")
     public final List<String> getLines() {
-        System.out.println(Line.displayableColors() + "line controller");
         return Line.displayableColors();
-        }
+    }
 
     @GetMapping(value = "routes")
-    public final List<String> getRoutes() { return Line.uriValues();}
+    public final List<String> getRoutes() {
+        return Line.uriValues();
+    }
 
 
 }

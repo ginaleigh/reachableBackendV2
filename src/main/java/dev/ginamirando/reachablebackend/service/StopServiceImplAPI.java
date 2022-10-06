@@ -1,13 +1,10 @@
 package dev.ginamirando.reachablebackend.service;
 
-import dev.ginamirando.reachablebackend.configuration.StopConfiguration;
 import dev.ginamirando.reachablebackend.models.Arrival;
 import dev.ginamirando.reachablebackend.models.CtaResponse;
 import dev.ginamirando.reachablebackend.models.Ctatt;
 import dev.ginamirando.reachablebackend.models.LStops;
 import org.springframework.context.annotation.Primary;
-import org.springframework.core.ParameterizedTypeReference;
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -19,15 +16,9 @@ import java.util.List;
 @Primary
 public class StopServiceImplAPI implements StopService {
 
-    private final StopConfiguration config;
-
-    private StopServiceImplAPI(final StopConfiguration config) {
-        this.config = config;
-    }
-
     @Override
     public List<LStops> getRoutes() {
-        return StopDataService.allBlueStops();
+        return StopServiceUtil.allBlueStops();
     }
 
     @Override
@@ -41,7 +32,6 @@ public class StopServiceImplAPI implements StopService {
                 .queryParam("outputType", "JSON")
                 .build()
                 .toUri();
-        System.out.println(uri);
         WebClient client = WebClient.create();
         return client.get()
                 .uri(uri)
