@@ -1,6 +1,7 @@
 package dev.ginamirando.reachablebackend.service;
 
 import dev.ginamirando.reachablebackend.models.LStops;
+import dev.ginamirando.reachablebackend.models.Line;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
@@ -9,7 +10,9 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
 import java.util.ArrayList;
+import java.util.EnumMap;
 import java.util.List;
+import java.util.Map;
 
 @Component
 public class StopServiceUtil {
@@ -37,6 +40,9 @@ public class StopServiceUtil {
                 .block();
     }
 
+    public static List<LStops> getAllStops() {
+        return new ArrayList<>(allStops);
+    }
 
     public static List<LStops> allRedStops() {
         final List<LStops> reds = new ArrayList<>();
@@ -137,7 +143,20 @@ public class StopServiceUtil {
         return oranges;
     }
 
+    public static Map<Line, List<LStops>> lineToStops() {
+        Map<Line, List<LStops>> theStops = new EnumMap<>(Line.class);
+        theStops.put(Line.RED, allRedStops());
+        theStops.put(Line.BLUE, allBlueStops());
+        theStops.put(Line.GREEN, allGreenStops());
+        theStops.put(Line.BROWN, allBrownStops());
+        theStops.put(Line.PURPLE, allPurpleStops());
+        theStops.put(Line.PURPLEEXPRESS, allPurpleExpressStops());
+        theStops.put(Line.YELLOW, allYellowStops());
+        theStops.put(Line.PINK, allPinkStops());
+        theStops.put(Line.ORANGE, allOrangeStops());
+
+        return theStops;
+    }
+
 }
-
-
 
