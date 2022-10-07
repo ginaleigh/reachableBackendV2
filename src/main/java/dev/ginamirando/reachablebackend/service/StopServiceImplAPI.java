@@ -1,11 +1,6 @@
 package dev.ginamirando.reachablebackend.service;
 
-import dev.ginamirando.reachablebackend.configuration.StopConfiguration;
 import dev.ginamirando.reachablebackend.models.*;
-import dev.ginamirando.reachablebackend.models.Arrival;
-import dev.ginamirando.reachablebackend.models.CtaResponse;
-import dev.ginamirando.reachablebackend.models.Ctatt;
-import dev.ginamirando.reachablebackend.models.LStops;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -19,8 +14,13 @@ import java.util.List;
 public class StopServiceImplAPI implements StopService {
 
     @Override
-    public List<LStops> getRoutes() {
-        return StopServiceUtil.allBlueStops();
+    public List<LStops> getRoutes(Line line) {
+        return StopServiceUtil.lineToStops().get(line);
+    }
+
+    @Override
+    public List<LStops> getAllStops() {
+        return StopServiceUtil.getAllStops();
     }
 
     @Override
@@ -47,5 +47,7 @@ public class StopServiceImplAPI implements StopService {
 
 
 }
+
+
 
 

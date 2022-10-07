@@ -1,22 +1,23 @@
 package dev.ginamirando.reachablebackend.controllers;
 
 import dev.ginamirando.reachablebackend.models.Arrival;
+import dev.ginamirando.reachablebackend.models.LStops;
 import dev.ginamirando.reachablebackend.models.Line;
-import dev.ginamirando.reachablebackend.models.StopsDTO;
 import dev.ginamirando.reachablebackend.service.StopService;
-import java.util.Collections;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
 public class StopController {
+
 
     private final StopService service;
 
@@ -26,11 +27,11 @@ public class StopController {
 
 
     @GetMapping(value = "/stops/{line}")
-    public List<StopsDTO> getRoutes(@PathVariable final Line line) {
+    public List<LStops> getRoutes(@PathVariable final Line line) {
         return service.getRoutes(line);
     }
     @GetMapping(value = "/stops")
-    public List<StopsDTO> getAllRoutes() {
+    public List<LStops> getAllRoutes() {
         return service.getAllStops();
     }
 

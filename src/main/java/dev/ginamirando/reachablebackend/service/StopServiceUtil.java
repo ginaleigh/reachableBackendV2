@@ -1,6 +1,6 @@
 package dev.ginamirando.reachablebackend.service;
 
-import dev.ginamirando.reachablebackend.models.StopsDTO;
+import dev.ginamirando.reachablebackend.models.LStops;
 import dev.ginamirando.reachablebackend.models.Line;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.MediaType;
@@ -9,7 +9,10 @@ import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.net.URI;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.EnumMap;
+import java.util.List;
+import java.util.Map;
 
 @Component
 public class StopServiceUtil {
@@ -37,12 +40,12 @@ public class StopServiceUtil {
                 .block();
     }
 
-    public static List<StopsDTO> getAllStops() {
+    public static List<LStops> getAllStops() {
         return new ArrayList<>(allStops);
     }
 
-    public static List<StopsDTO> allRedStops() {
-        final List<StopsDTO> reds = new ArrayList<>();
+    public static List<LStops> allRedStops() {
+        final List<LStops> reds = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.redLine()) {
                 reds.add(stop);
@@ -140,8 +143,8 @@ public class StopServiceUtil {
         return oranges;
     }
 
-    public static Map<Line, List<StopsDTO>> lineToStops() {
-        Map<Line, List<StopsDTO>> theStops = new EnumMap<>(Line.class);
+    public static Map<Line, List<LStops>> lineToStops() {
+        Map<Line, List<LStops>> theStops = new EnumMap<>(Line.class);
         theStops.put(Line.RED, allRedStops());
         theStops.put(Line.BLUE, allBlueStops());
         theStops.put(Line.GREEN, allGreenStops());
