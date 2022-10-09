@@ -12,16 +12,34 @@ import java.util.List;
 @Service
 @Primary
 public class StopServiceImplAPI implements StopService {
+    public void main(StopService[] args) {
+        StopService var = new StopService() {
+            @Override
+            public List<LStops> getRoutes(Line line) {
+                return null;
+            }
 
-    @Override
-    public List<LStops> getRoutes(Line line) {
-        return StopServiceUtil.lineToStops().get(line);
+            @Override
+            public List<LStops> getAllStops() {
+                return null;
+            }
+
+            @Override
+            public List<Arrival> getArrival(int parentId) {
+                return null;
+            }
+        };
     }
 
-    @Override
-    public List<LStops> getAllStops() {
-        return StopServiceUtil.getAllStops();
-    }
+//    @Override
+//    public final List<LStops> getRoutes(Line line) {
+//        return StopServiceUtil.lineToStops().get(line);
+//    }
+//
+//    @Override
+//    public List<LStops> getAllStops() {
+//        return StopServiceUtil.getAllStops();
+//    }
 
     @Override
     public List<Arrival> getArrival(int parentId) {

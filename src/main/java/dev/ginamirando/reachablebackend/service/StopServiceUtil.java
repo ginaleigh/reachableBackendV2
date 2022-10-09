@@ -20,9 +20,10 @@ public class StopServiceUtil {
     // Created to avoid instantiation
     private StopServiceUtil() {}
 
-    private static final List<LStops> allStops;
+    private final List<LStops> allStops;
 
-    static {
+    {
+
         // TODO: Externalize these values
         final URI uri = UriComponentsBuilder.newInstance()
                 .scheme("https")
@@ -30,21 +31,24 @@ public class StopServiceUtil {
                 .path("/resource/8pix-ypme.json")
                 .build()
                 .toUri();
-        // TODO: Remove this SOUT
         WebClient client = WebClient.create();
         allStops = client.get()
                 .uri(uri)
                 .accept(MediaType.APPLICATION_JSON)
                 .retrieve()
-                .bodyToMono(new ParameterizedTypeReference<List<LStops>>() {})
+                .bodyToMono(new ParameterizedTypeReference<List<LStops>>() {
+                })
                 .block();
+
+
     }
 
-    public static List<LStops> getAllStops() {
+    public List<LStops> getAllStops() {
         return new ArrayList<>(allStops);
     }
 
-    public static List<LStops> allRedStops() {
+
+    public List<LStops> allRedStops() {
         final List<LStops> reds = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.redLine()) {
@@ -55,7 +59,7 @@ public class StopServiceUtil {
         return reds;
     }
 
-    public static List<LStops> allBlueStops() {
+    public List<LStops> allBlueStops() {
         final List<LStops> blues = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.blueLine()) {
@@ -66,7 +70,7 @@ public class StopServiceUtil {
         return blues;
     }
 
-    public static List<LStops> allGreenStops() {
+    public List<LStops> allGreenStops() {
         final List<LStops> greens = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.greenLine()) {
@@ -77,7 +81,7 @@ public class StopServiceUtil {
         return greens;
     }
 
-    public static List<LStops> allBrownStops() {
+    public List<LStops> allBrownStops() {
         final List<LStops> browns = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.brownLine()) {
@@ -88,7 +92,7 @@ public class StopServiceUtil {
         return browns;
     }
 
-    public static List<LStops> allPurpleStops() {
+    public List<LStops> allPurpleStops() {
         final List<LStops> purples = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.purpleLine()) {
@@ -99,7 +103,7 @@ public class StopServiceUtil {
         return purples;
     }
 
-    public static List<LStops> allPurpleExpressStops() {
+    public List<LStops> allPurpleExpressStops() {
         final List<LStops> purpleExpressStops = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.whatTheFilthIsThisHaha()) {
@@ -110,7 +114,7 @@ public class StopServiceUtil {
         return purpleExpressStops;
     }
 
-    public static List<LStops> allYellowStops() {
+    public List<LStops> allYellowStops() {
         final List<LStops> yellows = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.yellowLine()) {
@@ -121,7 +125,7 @@ public class StopServiceUtil {
         return yellows;
     }
 
-    public static List<LStops> allPinkStops() {
+    public List<LStops> allPinkStops() {
         final List<LStops> pinks = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.pinkLine()) {
@@ -132,7 +136,7 @@ public class StopServiceUtil {
         return pinks;
     }
 
-    public static List<LStops> allOrangeStops() {
+    public List<LStops> allOrangeStops() {
         final List<LStops> oranges = new ArrayList<>();
         allStops.forEach(stop -> {
             if (stop.orangeLine()) {
@@ -143,7 +147,7 @@ public class StopServiceUtil {
         return oranges;
     }
 
-    public static Map<Line, List<LStops>> lineToStops() {
+    public Map<Line, List<LStops>> lineToStops() {
         Map<Line, List<LStops>> theStops = new EnumMap<>(Line.class);
         theStops.put(Line.RED, allRedStops());
         theStops.put(Line.BLUE, allBlueStops());
