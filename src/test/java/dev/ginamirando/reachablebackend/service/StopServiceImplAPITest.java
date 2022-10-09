@@ -16,7 +16,8 @@ import static org.mockito.Mockito.when;
 
 class StopServiceImplAPITest {
 
-    final StopServiceImplAPI underTest = new StopServiceImplAPI();
+    final StopServiceUtil util = new StopServiceUtil();
+    final StopServiceImplAPI underTest = new StopServiceImplAPI(util);
 
     @Test
     void getRoutes() {
