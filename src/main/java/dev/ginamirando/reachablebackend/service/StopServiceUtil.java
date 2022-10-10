@@ -33,8 +33,8 @@ public class StopServiceUtil {
                     .path(config.getPath())
                     .build()
                     .toUri();
-            WebClient client = WebClient.create();
-            List<LStops> theStops = (client.get()
+            final WebClient client = WebClient.create();
+            final List<LStops> theStops = (client.get()
                     .uri(uri)
                     .accept(MediaType.APPLICATION_JSON)
                     .retrieve()
@@ -57,7 +57,7 @@ public class StopServiceUtil {
         this.retrieveStops();
         final List<LStops> reds = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.redLine()) {
+            if (Boolean.TRUE.equals(stop.redLine())) {
                 reds.add(stop);
             }
         });
@@ -69,7 +69,7 @@ public class StopServiceUtil {
         this.retrieveStops();
         final List<LStops> blues = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.blueLine()) {
+            if (Boolean.TRUE.equals(stop.blueLine())) {
                 blues.add(stop);
             }
         });
@@ -79,21 +79,16 @@ public class StopServiceUtil {
 
     public List<LStops> allGreenStops() {
         this.retrieveStops();
-        final List<LStops> greens = new ArrayList<>();
-        allStops.forEach(stop -> {
-            if (stop.greenLine()) {
-                greens.add(stop);
-            }
-        });
-
-        return greens;
+        return allStops.stream()
+                .filter(LStops::greenLine)
+                .toList();
     }
 
     public List<LStops> allBrownStops() {
         this.retrieveStops();
         final List<LStops> browns = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.brownLine()) {
+            if (Boolean.TRUE.equals(stop.brownLine())) {
                 browns.add(stop);
             }
         });
@@ -105,7 +100,7 @@ public class StopServiceUtil {
         this.retrieveStops();
         final List<LStops> purples = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.purpleLine()) {
+            if (Boolean.TRUE.equals(stop.purpleLine())) {
                 purples.add(stop);
             }
         });
@@ -117,7 +112,7 @@ public class StopServiceUtil {
         this.retrieveStops();
         final List<LStops> purpleExpressStops = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.whatTheFilthIsThisHaha()) {
+            if (Boolean.TRUE.equals(stop.whatTheFilthIsThisHaha())) {
                 purpleExpressStops.add(stop);
             }
         });
@@ -129,7 +124,7 @@ public class StopServiceUtil {
         this.retrieveStops();
         final List<LStops> yellows = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.yellowLine()) {
+            if (Boolean.TRUE.equals(stop.yellowLine())) {
                 yellows.add(stop);
             }
         });
@@ -141,7 +136,7 @@ public class StopServiceUtil {
         this.retrieveStops();
         final List<LStops> pinks = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.pinkLine()) {
+            if (Boolean.TRUE.equals(stop.pinkLine())) {
                 pinks.add(stop);
             }
         });
@@ -153,7 +148,7 @@ public class StopServiceUtil {
         this.retrieveStops();
         final List<LStops> oranges = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.orangeLine()) {
+            if (Boolean.TRUE.equals(stop.orangeLine())) {
                 oranges.add(stop);
             }
         });
@@ -162,7 +157,7 @@ public class StopServiceUtil {
     }
 
     public Map<Line, List<LStops>> lineToStops() {
-        Map<Line, List<LStops>> theStops = new EnumMap<>(Line.class);
+        final Map<Line, List<LStops>> theStops = new EnumMap<>(Line.class);
         theStops.put(Line.RED, allRedStops());
         theStops.put(Line.BLUE, allBlueStops());
         theStops.put(Line.GREEN, allGreenStops());
