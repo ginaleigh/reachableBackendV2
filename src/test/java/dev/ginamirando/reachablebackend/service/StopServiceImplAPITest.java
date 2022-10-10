@@ -1,23 +1,13 @@
 package dev.ginamirando.reachablebackend.service;
 
-import dev.ginamirando.reachablebackend.models.LStops;
-import dev.ginamirando.reachablebackend.models.Line;
 import org.junit.jupiter.api.Test;
-import org.mockito.MockedStatic;
-import org.mockito.Mockito;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.when;
 
 class StopServiceImplAPITest {
 
-    final StopServiceUtil util = new StopServiceUtil();
-    final StopServiceImplAPI underTest = new StopServiceImplAPI(util);
+    final StopServiceUtil util = new StopServiceUtil(null);
+    final StopServiceImplAPI underTest = new StopServiceImplAPI(null, util);
 
     @Test
     void getRoutes() {

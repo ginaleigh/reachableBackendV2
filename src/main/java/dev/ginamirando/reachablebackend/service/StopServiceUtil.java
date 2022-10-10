@@ -1,5 +1,6 @@
 package dev.ginamirando.reachablebackend.service;
 
+import dev.ginamirando.reachablebackend.configuration.StopsExternalConfiguration;
 import dev.ginamirando.reachablebackend.models.LStops;
 import dev.ginamirando.reachablebackend.models.Line;
 import org.springframework.core.ParameterizedTypeReference;
@@ -18,17 +19,18 @@ import java.util.Map;
 public class StopServiceUtil {
 
     private final List<LStops> allStops;
-    public StopServiceUtil() {
+    private final StopsExternalConfiguration config;
+    public StopServiceUtil(final StopsExternalConfiguration config) {
+        this.config = config;
         this.allStops = new ArrayList<>();
     }
 
     private void retrieveStops() {
         if (this.allStops.isEmpty()) {
-            // TODO: Externalize these values
             final URI uri = UriComponentsBuilder.newInstance()
-                    .scheme("https")
-                    .host("data.cityofchicago.org")
-                    .path("/resource/8pix-ypme.json")
+                    .scheme(config.getScheme())
+                    .host(config.getHost())
+                    .path(config.getPath())
                     .build()
                     .toUri();
             WebClient client = WebClient.create();
@@ -39,8 +41,9 @@ public class StopServiceUtil {
                     .bodyToMono(new ParameterizedTypeReference<List<LStops>>() {})
                     .block());
 
-            assert theStops != null;
-            this.allStops.addAll(theStops);
+            if (theStops != null) {
+                this.allStops.addAll(theStops);
+            }
         }
     }
 

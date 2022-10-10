@@ -1,5 +1,6 @@
 package dev.ginamirando.reachablebackend.service;
 
+import dev.ginamirando.reachablebackend.configuration.ArrivalExtConfig;
 import dev.ginamirando.reachablebackend.models.*;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
@@ -13,9 +14,11 @@ import java.util.List;
 @Primary
 public class StopServiceImplAPI implements StopService {
 
+    private final ArrivalExtConfig config;
     private final StopServiceUtil util;
 
-    public StopServiceImplAPI(final StopServiceUtil util) {
+    public StopServiceImplAPI(final ArrivalExtConfig config, final StopServiceUtil util) {
+        this.config = config;
         this.util = util;
     }
 
@@ -32,12 +35,12 @@ public class StopServiceImplAPI implements StopService {
     @Override
     public List<Arrival> getArrival(int parentId) {
         URI uri = UriComponentsBuilder.newInstance()
-                .scheme("http")
-                .host("lapi.transitchicago.com/api/1.0")
-                .path("ttarrivals.aspx")
-                .queryParam("key","9d5f0f7eb96941a99a4eeaed221e3f1e")
+                .scheme(config.getScheme())
+                .host(config.getHost())
+                .path(config.getPath())
+                .queryParam("key", config.getKey())
                 .queryParam("mapid", parentId)
-                .queryParam("outputType", "JSON")
+                .queryParam("outputType", config.getOutputType())
                 .build()
                 .toUri();
         WebClient client = WebClient.create();
