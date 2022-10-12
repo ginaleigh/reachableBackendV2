@@ -34,12 +34,13 @@ public class StopServiceImplAPI implements StopService {
 
     @Override
     public List<Arrival> getArrival(int parentId) {
+        final String s = parentId < 40_000 ? "stpid" : "mapid";
         URI uri = UriComponentsBuilder.newInstance()
                 .scheme(config.getScheme())
                 .host(config.getHost())
                 .path(config.getPath())
                 .queryParam("key", config.getKey())
-                .queryParam("mapid", idParameter)
+                .queryParam(s, parentId)
                 .queryParam("outputType", config.getOutputType())
                 .build()
                 .toUri();

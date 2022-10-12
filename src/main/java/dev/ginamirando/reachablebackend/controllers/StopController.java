@@ -12,12 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Collections;
 import java.util.List;
-import java.util.Objects;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
 public class StopController {
-
 
     private final StopService service;
 
@@ -34,7 +32,6 @@ public class StopController {
         return service.getAllStops();
     }
 
-    // This will be called by the FE once you get back a list of stops, and BOTH dropdowns are selected (PINK - STOP NAME), we will get the parentId here.
     @GetMapping(value = "/arrivals/{parentId}")
     public List<Arrival> getArrivals(@PathVariable Integer parentId) {
         if (parentId != null && parentId > 30_000) {
