@@ -39,7 +39,7 @@ public class StopServiceImplAPI implements StopService {
                 .host(config.getHost())
                 .path(config.getPath())
                 .queryParam("key", config.getKey())
-                .queryParam("mapid", parentId)
+                .queryParam("mapid", idParameter)
                 .queryParam("outputType", config.getOutputType())
                 .build()
                 .toUri();

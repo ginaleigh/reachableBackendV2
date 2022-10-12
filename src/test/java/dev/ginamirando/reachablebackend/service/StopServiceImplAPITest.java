@@ -1,30 +1,28 @@
 package dev.ginamirando.reachablebackend.service;
 
+import dev.ginamirando.reachablebackend.configuration.ArrivalExtConfig;
+import dev.ginamirando.reachablebackend.configuration.StopsExternalConfiguration;
+import dev.ginamirando.reachablebackend.models.LStops;
+import dev.ginamirando.reachablebackend.models.Line;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.util.LambdaSafe;
+
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class StopServiceImplAPITest {
 
-    final StopServiceUtil util = new StopServiceUtil(null);
-    final StopServiceImplAPI underTest = new StopServiceImplAPI(null, util);
+    private final StopsExternalConfiguration config = new StopsExternalConfiguration();
+    private final ArrivalExtConfig arrivalExtConfig = new ArrivalExtConfig();
+    final StopServiceUtil util = new StopServiceUtil(config);
+    final StopServiceImplAPI underTest = new StopServiceImplAPI(arrivalExtConfig, util);
 
     @Test
     void getRoutes() {
-//        try(MockedStatic<StopServiceUtil> mc = Mockito.mockStatic(StopServiceUtil.class)) {
-//            List<LStops> theList = new ArrayList<>();
-//            theList.add(new LStops(11111, "dddd", "eeee", "ssss", "dddd", 44444,
-//                    true, true, true, true, true, true, true, true, true, true));
-//
-//            Map<Line, List<LStops>> theMap = new HashMap<>();
-//            theMap.put(Line.BLUE, theList);
-//
-//            when(StopServiceUtil.lineToStops()).thenReturn(theMap);
-//
-//
-//            List<LStops> whatIExpect = underTest.getRoutes(Line.BLUE);
-//            assertEquals(1, whatIExpect.size(), "I expect these two have 1 value");
-//        }
+    List<LStops> results = underTest.getRoutes(Line.RED);
+
+    assertEquals(2, results.size());
     }
 
     @Test
