@@ -1,6 +1,3 @@
-cta-train:
-  key: "9d5f0f7eb96941a99a4eeaed221e3f1e"
-
 external-api:
   stops:
     scheme: "https"
