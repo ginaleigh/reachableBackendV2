@@ -34,10 +34,11 @@ public class StopController {
         return service.getAllStops();
     }
 
-    // This will be called by the FE once you get back a list of stops, and BOTH dropdowns are selected (PINK - STOP NAME), we will get the parentId here.
+
     @GetMapping(value = "/arrivals/{parentId}")
     public List<Arrival> getArrivals(@PathVariable Integer parentId) {
-        if (parentId != null && parentId > 30_000) {
+        Objects.requireNonNull(parentId);
+        if (parentId > 30_000) {
             return service.getArrival(parentId);
         }
         return Collections.emptyList();
