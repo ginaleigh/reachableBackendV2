@@ -25,7 +25,6 @@ public class StopController {
         this.service = service;
     }
 
-
     @GetMapping(value = "/stops/{line}")
     public List<LStops> getRoutes(@PathVariable final Line line) {
         return service.getRoutes(line);

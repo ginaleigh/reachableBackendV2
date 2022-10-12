@@ -1,17 +1,18 @@
 package dev.ginamirando.reachablebackend.configuration;
 
 import lombok.Getter;
+import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Getter
+@Setter
 @Component
-@ConfigurationProperties("cta-api")
-public class StopConfiguration {
-
+@ConfigurationProperties(prefix = "external-api.arrival")
+public class ArrivalExtConfig {
+    private String scheme;
+    private String host;
+    private String path;
     private String key;
-
-//    public StopConfiguration(String key) {
-//        this.key = key;
-//    } need this to make above final but didnt work is this to do with spring annotation?
+    private String outputType;
 }

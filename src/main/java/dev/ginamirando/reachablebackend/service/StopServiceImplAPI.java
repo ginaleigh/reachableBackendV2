@@ -1,5 +1,6 @@
 package dev.ginamirando.reachablebackend.service;
 
+import dev.ginamirando.reachablebackend.configuration.ArrivalExtConfig;
 import dev.ginamirando.reachablebackend.models.*;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
@@ -13,25 +14,33 @@ import java.util.List;
 @Primary
 public class StopServiceImplAPI implements StopService {
 
+    private final ArrivalExtConfig config;
+    private final StopServiceUtil util;
+
+    public StopServiceImplAPI(final ArrivalExtConfig config, final StopServiceUtil util) {
+        this.config = config;
+        this.util = util;
+    }
+
     @Override
-    public List<LStops> getRoutes(Line line) {
-        return StopServiceUtil.lineToStops().get(line);
+    public final List<LStops> getRoutes(Line line) {
+        return util.lineToStops().get(line);
     }
 
     @Override
     public List<LStops> getAllStops() {
-        return StopServiceUtil.getAllStops();
+        return util.getAllStops();
     }
 
     @Override
     public List<Arrival> getArrival(int parentId) {
         URI uri = UriComponentsBuilder.newInstance()
-                .scheme("http")
-                .host("lapi.transitchicago.com/api/1.0")
-                .path("ttarrivals.aspx")
-                .queryParam("key","9d5f0f7eb96941a99a4eeaed221e3f1e")
-                .queryParam("mapid", parentId)
-                .queryParam("outputType", "JSON")
+                .scheme(config.getScheme())
+                .host(config.getHost())
+                .path(config.getPath())
+                .queryParam("key", config.getKey())
+                .queryParam("mapid", idParameter)
+                .queryParam("outputType", config.getOutputType())
                 .build()
                 .toUri();
         WebClient client = WebClient.create();
@@ -44,8 +53,6 @@ public class StopServiceImplAPI implements StopService {
                 .block();
 
     }
-
-
 }
 
 

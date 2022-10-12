@@ -10,7 +10,6 @@ public interface StopService {
 
     List<LStops> getRoutes(Line line);
     List<LStops> getAllStops();
-
     List<Arrival> getArrival(int parentId);
 }
 

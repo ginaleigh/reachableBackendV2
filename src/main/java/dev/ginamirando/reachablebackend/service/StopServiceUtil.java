@@ -1,5 +1,6 @@
 package dev.ginamirando.reachablebackend.service;
 
+import dev.ginamirando.reachablebackend.configuration.StopsExternalConfiguration;
 import dev.ginamirando.reachablebackend.models.LStops;
 import dev.ginamirando.reachablebackend.models.Line;
 import org.springframework.core.ParameterizedTypeReference;
@@ -17,37 +18,46 @@ import java.util.Map;
 @Component
 public class StopServiceUtil {
 
-    // Created to avoid instantiation
-    private StopServiceUtil() {}
-
-    private static final List<LStops> allStops;
-
-    static {
-        // TODO: Externalize these values
-        final URI uri = UriComponentsBuilder.newInstance()
-                .scheme("https")
-                .host("data.cityofchicago.org")
-                .path("/resource/8pix-ypme.json")
-                .build()
-                .toUri();
-        // TODO: Remove this SOUT
-        WebClient client = WebClient.create();
-        allStops = client.get()
-                .uri(uri)
-                .accept(MediaType.APPLICATION_JSON)
-                .retrieve()
-                .bodyToMono(new ParameterizedTypeReference<List<LStops>>() {})
-                .block();
+    private final List<LStops> allStops;
+    private final StopsExternalConfiguration config;
+    public StopServiceUtil(final StopsExternalConfiguration config) {
+        this.config = config;
+        this.allStops = new ArrayList<>();
     }
 
-    public static List<LStops> getAllStops() {
+    private void retrieveStops() {
+        if (this.allStops.isEmpty()) {
+            final URI uri = UriComponentsBuilder.newInstance()
+                    .scheme(config.getScheme())
+                    .host(config.getHost())
+                    .path(config.getPath())
+                    .build()
+                    .toUri();
+            final WebClient client = WebClient.create();
+            final List<LStops> theStops = (client.get()
+                    .uri(uri)
+                    .accept(MediaType.APPLICATION_JSON)
+                    .retrieve()
+                    .bodyToMono(new ParameterizedTypeReference<List<LStops>>() {})
+                    .block());
+
+            if (theStops != null) {
+                this.allStops.addAll(theStops);
+            }
+        }
+    }
+
+    public List<LStops> getAllStops() {
+        this.retrieveStops();
         return new ArrayList<>(allStops);
     }
 
-    public static List<LStops> allRedStops() {
+
+    public List<LStops> allRedStops() {
+        this.retrieveStops();
         final List<LStops> reds = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.redLine()) {
+            if (Boolean.TRUE.equals(stop.redLine())) {
                 reds.add(stop);
             }
         });
@@ -55,10 +65,11 @@ public class StopServiceUtil {
         return reds;
     }
 
-    public static List<LStops> allBlueStops() {
+    public List<LStops> allBlueStops() {
+        this.retrieveStops();
         final List<LStops> blues = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.blueLine()) {
+            if (Boolean.TRUE.equals(stop.blueLine())) {
                 blues.add(stop);
             }
         });
@@ -66,21 +77,18 @@ public class StopServiceUtil {
         return blues;
     }
 
-    public static List<LStops> allGreenStops() {
-        final List<LStops> greens = new ArrayList<>();
-        allStops.forEach(stop -> {
-            if (stop.greenLine()) {
-                greens.add(stop);
-            }
-        });
-
-        return greens;
+    public List<LStops> allGreenStops() {
+        this.retrieveStops();
+        return allStops.stream()
+                .filter(LStops::greenLine)
+                .toList();
     }
 
-    public static List<LStops> allBrownStops() {
+    public List<LStops> allBrownStops() {
+        this.retrieveStops();
         final List<LStops> browns = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.brownLine()) {
+            if (Boolean.TRUE.equals(stop.brownLine())) {
                 browns.add(stop);
             }
         });
@@ -88,10 +96,11 @@ public class StopServiceUtil {
         return browns;
     }
 
-    public static List<LStops> allPurpleStops() {
+    public List<LStops> allPurpleStops() {
+        this.retrieveStops();
         final List<LStops> purples = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.purpleLine()) {
+            if (Boolean.TRUE.equals(stop.purpleLine())) {
                 purples.add(stop);
             }
         });
@@ -99,10 +108,11 @@ public class StopServiceUtil {
         return purples;
     }
 
-    public static List<LStops> allPurpleExpressStops() {
+    public List<LStops> allPurpleExpressStops() {
+        this.retrieveStops();
         final List<LStops> purpleExpressStops = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.whatTheFilthIsThisHaha()) {
+            if (Boolean.TRUE.equals(stop.whatTheFilthIsThisHaha())) {
                 purpleExpressStops.add(stop);
             }
         });
@@ -110,10 +120,11 @@ public class StopServiceUtil {
         return purpleExpressStops;
     }
 
-    public static List<LStops> allYellowStops() {
+    public List<LStops> allYellowStops() {
+        this.retrieveStops();
         final List<LStops> yellows = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.yellowLine()) {
+            if (Boolean.TRUE.equals(stop.yellowLine())) {
                 yellows.add(stop);
             }
         });
@@ -121,10 +132,11 @@ public class StopServiceUtil {
         return yellows;
     }
 
-    public static List<LStops> allPinkStops() {
+    public List<LStops> allPinkStops() {
+        this.retrieveStops();
         final List<LStops> pinks = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.pinkLine()) {
+            if (Boolean.TRUE.equals(stop.pinkLine())) {
                 pinks.add(stop);
             }
         });
@@ -132,10 +144,11 @@ public class StopServiceUtil {
         return pinks;
     }
 
-    public static List<LStops> allOrangeStops() {
+    public List<LStops> allOrangeStops() {
+        this.retrieveStops();
         final List<LStops> oranges = new ArrayList<>();
         allStops.forEach(stop -> {
-            if (stop.orangeLine()) {
+            if (Boolean.TRUE.equals(stop.orangeLine())) {
                 oranges.add(stop);
             }
         });
@@ -143,8 +156,8 @@ public class StopServiceUtil {
         return oranges;
     }
 
-    public static Map<Line, List<LStops>> lineToStops() {
-        Map<Line, List<LStops>> theStops = new EnumMap<>(Line.class);
+    public Map<Line, List<LStops>> lineToStops() {
+        final Map<Line, List<LStops>> theStops = new EnumMap<>(Line.class);
         theStops.put(Line.RED, allRedStops());
         theStops.put(Line.BLUE, allBlueStops());
         theStops.put(Line.GREEN, allGreenStops());
