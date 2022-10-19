@@ -11,7 +11,6 @@ import java.net.URI;
 import java.util.List;
 
 @Service
-@Primary
 public class StopServiceImplAPI implements StopService {
 
     private final ArrivalExtConfig config;
